@@ -489,6 +489,7 @@
 				DEVELOPMENT_TEAM = 32X849995V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "My Personal Budget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MPB;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -517,6 +518,7 @@
 				DEVELOPMENT_TEAM = 32X849995V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "My Personal Budget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MPB;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

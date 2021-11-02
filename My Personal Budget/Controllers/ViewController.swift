@@ -17,9 +17,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "Sfondo_App.png")!)
-        
+                
         // Animazione macchina da scrivere titolo
         titoloApp.text = ""
         var indiceChar = 0.0
