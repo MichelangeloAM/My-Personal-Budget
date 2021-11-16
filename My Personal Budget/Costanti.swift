@@ -11,7 +11,12 @@ struct K {
     static let registratiSegue = "RegistratiAdApp"
     static let loginSegue = "LoginInApp"
     static let scrittaLogin = "Log In"
-    static let messaggioErrore = ""
+    static let messaggioErrore = "Compila tutti i campi"
+    static let scrittaProfilo = "Profilo"
+    
+    struct App_Text {
+        static let tutorialApp = "Ciao e benvenuto! Di seguito spiegherò brevemente le funzionalità dell'app. In basso trovi 4 opzioni, la prima è questa, la seconda (Profilo) serve a modificare i propri dati, la terza per inserire transazioni, la quarta per le statistiche."
+    }
     
     struct Fbase {
         static let collectionName = "messages"

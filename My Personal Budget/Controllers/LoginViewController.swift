@@ -23,7 +23,7 @@ class LoginViewController: UIViewController {
                     self.erroreLogin.text = e.localizedDescription
                 } else {
                     // Naviga alla pagina successiva qui
-                    self.performSegue(withIdentifier: "loginAHome", sender:self)
+                    self.performSegue(withIdentifier: "loginAWelcome", sender:self)
                 }
             }
         }
