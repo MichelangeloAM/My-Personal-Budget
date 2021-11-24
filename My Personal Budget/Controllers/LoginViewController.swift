@@ -2,7 +2,7 @@
 //  LoginViewController.swift
 //  My Personal Budget
 //
-//  Created by Michelangelo Amoruso Manzari on 02/11/21.
+//  Created by Michelangelo Amoruso Manzari.
 //
 
 import UIKit

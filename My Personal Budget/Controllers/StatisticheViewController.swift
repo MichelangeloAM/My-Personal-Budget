@@ -2,7 +2,7 @@
 //  StatisticheViewController.swift
 //  My Personal Budget
 //
-//  Created by Michelangelo Amoruso Manzari on 11/11/21.
+//  Created by Michelangelo Amoruso Manzari.
 //
 
 import UIKit
@@ -10,11 +10,18 @@ import Firebase
 
 class StatisticheViewController: UIViewController {
 
+    @IBOutlet weak var labelStatistiche: UILabel!
+    @IBOutlet weak var labelTutorialStatistiche: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         title = "Grafici"
         navigationItem.hidesBackButton = true
+        
+        labelStatistiche.text = K.scrittaStatistiche
+        labelTutorialStatistiche.text = K.App_Text.tutorialStatistiche
     }
     
 
