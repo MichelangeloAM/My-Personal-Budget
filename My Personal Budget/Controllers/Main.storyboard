@@ -299,7 +299,11 @@
         <scene sceneID="fMC-CR-I1x">
             <objects>
                 <viewController id="sZQ-r1-8j7" customClass="LoginViewController" customModule="My_Personal_Budget" customModuleProvider="target" sceneMemberID="viewController">
+<<<<<<< HEAD
                     <view key="view" contentMode="scaleToFill" id="jGU-9m-YXx">
+=======
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="jGU-9m-YXx">
+>>>>>>> 03175595d3caeebf3cefa9c5d1c14ca73a322a4b
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -316,10 +320,17 @@
                                 <color key="textColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
                                 <nil key="highlightedColor"/>
                             </label>
+<<<<<<< HEAD
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TextField-1" translatesAutoresizingMaskIntoConstraints="NO" id="qff-d4-3Gs" userLabel="textFieldEmail">
                                 <rect key="frame" x="58" y="260" width="298" height="93"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="prova@prova.com" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UpN-aZ-9Yx">
+=======
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="TextField-1" translatesAutoresizingMaskIntoConstraints="NO" id="qff-d4-3Gs" userLabel="textFieldEmail">
+                                <rect key="frame" x="58" y="260" width="298" height="93"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="prova@prova.com" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UpN-aZ-9Yx">
+>>>>>>> 03175595d3caeebf3cefa9c5d1c14ca73a322a4b
                                 <rect key="frame" x="87.5" y="275" width="239" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="VNp-Og-CLb"/>
@@ -329,10 +340,17 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
                             </textField>
+<<<<<<< HEAD
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TextField-1" translatesAutoresizingMaskIntoConstraints="NO" id="oLp-j9-uVR" userLabel="textFieldEmail">
                                 <rect key="frame" x="58" y="321" width="298" height="93"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="000000" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kNc-D2-ds0">
+=======
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="TextField-1" translatesAutoresizingMaskIntoConstraints="NO" id="oLp-j9-uVR" userLabel="textFieldEmail">
+                                <rect key="frame" x="58" y="321" width="298" height="93"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="000000" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kNc-D2-ds0">
+>>>>>>> 03175595d3caeebf3cefa9c5d1c14ca73a322a4b
                                 <rect key="frame" x="87.5" y="334" width="239" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="kNc-D2-ds0" secondAttribute="height" multiplier="239:41" id="hPp-JI-s5U"/>
@@ -342,7 +360,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES" textContentType="password"/>
                             </textField>
+<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9f-K4-jxV" userLabel="registratiButton">
+=======
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9f-K4-jxV" userLabel="registratiButton">
+>>>>>>> 03175595d3caeebf3cefa9c5d1c14ca73a322a4b
                                 <rect key="frame" x="105.5" y="415" width="203" height="68.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="202" id="03Q-dw-EqT"/>
@@ -361,7 +383,11 @@
                                     <action selector="bottoneLogin:" destination="sZQ-r1-8j7" eventType="touchUpInside" id="KLj-eE-c0a"/>
                                 </connections>
                             </button>
+<<<<<<< HEAD
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUI-AU-G5n" userLabel="erroreLabel">
+=======
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUI-AU-G5n" userLabel="erroreLabel">
+>>>>>>> 03175595d3caeebf3cefa9c5d1c14ca73a322a4b
                                 <rect key="frame" x="58" y="486" width="298" height="46"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="46" id="12C-Nd-HFO"/>
@@ -522,6 +548,31 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+<<<<<<< HEAD
+=======
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pRa-bp-amw">
+                                <rect key="frame" x="82" y="198" width="250" height="35"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DZL-mn-HoP" customClass="SwiftyMenu" customModule="SwiftyMenu">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="35"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="7aB-LK-GIt"/>
+                                            <constraint firstAttribute="width" constant="250" id="DQD-xg-LHi"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="heightConstraint" destination="pRa-bp-amw" id="Tsp-4q-fnn"/>
+                                        </connections>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="DZL-mn-HoP" firstAttribute="centerX" secondItem="pRa-bp-amw" secondAttribute="centerX" id="Epx-6v-vE7"/>
+                                    <constraint firstAttribute="height" constant="35" id="jJd-2d-KaZ"/>
+                                    <constraint firstAttribute="width" constant="250" id="k1r-bs-tVj"/>
+                                </constraints>
+                            </view>
+>>>>>>> 03175595d3caeebf3cefa9c5d1c14ca73a322a4b
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ak3-aq-gP1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -530,10 +581,21 @@
                             <constraint firstItem="cmI-f8-2nc" firstAttribute="centerX" secondItem="w2g-cd-xms" secondAttribute="centerX" id="GXB-49-qAj"/>
                             <constraint firstItem="ak3-aq-gP1" firstAttribute="trailing" secondItem="bMO-Qr-QhW" secondAttribute="trailing" constant="20" id="KFK-3k-Zzg"/>
                             <constraint firstItem="cmI-f8-2nc" firstAttribute="top" secondItem="ak3-aq-gP1" secondAttribute="top" constant="131" id="QHm-cH-Gdg"/>
+<<<<<<< HEAD
+=======
+                            <constraint firstItem="pRa-bp-amw" firstAttribute="top" secondItem="cmI-f8-2nc" secondAttribute="bottom" constant="33" id="g5E-mZ-1s7"/>
+                            <constraint firstItem="pRa-bp-amw" firstAttribute="centerX" secondItem="w2g-cd-xms" secondAttribute="centerX" id="ige-qY-5yw"/>
+>>>>>>> 03175595d3caeebf3cefa9c5d1c14ca73a322a4b
                             <constraint firstItem="bMO-Qr-QhW" firstAttribute="top" secondItem="ak3-aq-gP1" secondAttribute="top" constant="20" id="saB-Kw-URE"/>
                             <constraint firstItem="BWz-fE-XJD" firstAttribute="leading" secondItem="ak3-aq-gP1" secondAttribute="leading" constant="20" id="tyw-qh-jgE"/>
                         </constraints>
                     </view>
+<<<<<<< HEAD
+=======
+                    <connections>
+                        <outlet property="view" destination="DZL-mn-HoP" id="5Ty-he-ZHU"/>
+                    </connections>
+>>>>>>> 03175595d3caeebf3cefa9c5d1c14ca73a322a4b
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hFR-KP-yrX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
