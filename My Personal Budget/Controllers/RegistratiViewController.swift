@@ -2,7 +2,7 @@
 //  RegistratiViewController.swift
 //  My Personal Budget
 //
-//  Created by Michelangelo Amoruso Manzari on 02/11/21.
+//  Created by Michelangelo Amoruso Manzari.
 //
 
 import UIKit
@@ -26,7 +26,7 @@ class RegistratiViewController: UIViewController {
             cognomeTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == ""
         {
             
-            return "Please fill in all data fields"
+            return "inserisci_all_data"
         }
         
         return nil
@@ -56,7 +56,7 @@ class RegistratiViewController: UIViewController {
                         // Qui creo l'utente nel database
                         let db = Firestore.firestore()
                         
-                        db.collection("utenti").addDocument(data: ["nome":nome, "cognome":cognome, "email": email, "uid": authResult!.user.uid]) { (erroreNome_Cognome) in
+                        db.collection("utenti").document(Auth.auth().currentUser!.uid).setData(["nome":nome, "cognome":cognome, "email": email, "uid": authResult!.user.uid]) { (erroreNome_Cognome) in
                             
                             if erroreNome_Cognome != nil {
                                 // Mostra errore

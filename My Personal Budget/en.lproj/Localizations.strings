@@ -1,0 +1,31 @@
+/* 
+  Localizations.strings
+  My-Personal_Budget
+
+  Created by Michelangelo Amoruso Manzari on 22/11/21.
+  
+  ENGLISH
+ 
+*/
+
+"nome_app" = "My Personal Budget";
+"motto_app" = "Your new accountant, that fits in your pocket!";
+"registrati_segue" = "RegistratiAdApp";
+"login_segue" = "LoginInApp";
+"scritta_login" = "Log In";
+"messaggio_errore" = "Fill in all the data fields";
+"scritta_profilo" = "Profile";
+"scritta_inserisci" = "Insert";
+"scritta_statistiche" = "Statistics";
+
+
+"tutorial_app" = "Hi and welcome! I'll hereby explain the app's functionalities. On the bottom bar you will see 4 options, the first one is this page, the second one (Profile) is for you to modify your personal profile info, the third one is to add new transactions and the fourth one is to view statistics about them.";
+
+"tutorial_inserisci" = "Click on the '+' button to add a new transaction. Select the type, category and finally the amount and click 'Add' to add it.";
+
+"tutorial_statistiche" = "Here you'll be able to visualize your statistics regarding your transactions to get a better understanding of how you are earning or spending your money on the fly!";
+
+
+// DB ---------
+    "dati_aggiornati" = "Data successfully updated";
+    "inserisci_all_data" = "Please fill in all data fields";

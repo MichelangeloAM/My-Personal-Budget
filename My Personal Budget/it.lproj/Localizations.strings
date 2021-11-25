@@ -1,0 +1,32 @@
+/* 
+  Localizations.strings
+  My-Personal_Budget
+
+  Created by Michelangelo Amoruso Manzari on 22/11/21.
+  
+ ITALIAN
+
+*/
+
+
+
+    "nome_app" = "My Personal Budget";
+    "motto_app" = "Il tuo nuovo contabile, che entra in tasca!";
+    "registrati_segue" = "RegistratiAdApp";
+    "login_segue" = "LoginInApp";
+    "scritta_login" = "Log In";
+    "messaggio_errore" = "Compila tutti i campi";
+    "scritta_profilo" = "Profilo";
+    "scritta_inserisci" = "Inserisci";
+    "scritta_statistiche" = "Statistiche";
+    
+
+    "tutorial_app" = "Ciao e benvenuto! Di seguito spiegherò brevemente le funzionalità dell'app. In basso trovi 4 opzioni, la prima è questa, la seconda (Profilo) serve a modificare i propri dati, la terza per inserire transazioni, la quarta per le statistiche.";
+
+    "tutorial_inserisci" = "Clicca il tasto '+' in alto a sinistra per inserire una nuova transazione. Seleziona la tipologia, categoria ed infine la cifra e clicca 'Inserisci' per inserire la transazione.";
+    "tutorial_statistiche" = "Qui puoi visualizzare tutte le informazioni riguardanti le tue transazioni in semplici e comprensibili grafici. I graifici possono darti indicazioni su come stai gestendo le tue spese al volo!";
+
+
+// DB ---------
+    "dati_aggiornati" = "Dati aggiornati con successo!";
+    "inserisci_all_data" = "Per favore inserisci tutti i dati";
