@@ -20,7 +20,6 @@ class StatisticheViewController: UIViewController {
         title = "Grafici"
         navigationItem.hidesBackButton = true
         
-        labelStatistiche.text = K.Generic_Text.scrittaStatistiche
         labelTutorialStatistiche.text = K.App_Text.tutorialStatistiche
     }
     

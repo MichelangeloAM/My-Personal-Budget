@@ -20,7 +20,6 @@ class InserisciViewController: UIViewController {
         title = "Inserisci Dati"
         navigationItem.hidesBackButton = true
         
-        labelInserisci.text = K.Generic_Text.scrittaInserisci
         labelTutorialInserisci.text = K.App_Text.tutorialInserisci
     }
     

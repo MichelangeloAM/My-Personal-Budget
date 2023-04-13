@@ -30,9 +30,7 @@ class ProfiloViewController: UIViewController {
 
         title = "Profilo"
         navigationItem.hidesBackButton = true
-        
-        labelProfilo.text = K.Generic_Text.scrittaProfilo
-        
+                
         
         // Accedo ai dati dell'utente
         db.collection("utenti").whereField("uid", isEqualTo: userID).getDocuments { querySnapshot, error in
