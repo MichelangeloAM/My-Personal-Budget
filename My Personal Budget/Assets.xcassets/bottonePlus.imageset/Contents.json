@@ -11,7 +11,7 @@
           "value" : "light"
         }
       ],
-      "filename" : "bottonePlusRotondoLightMode.png",
+      "filename" : "bottone_plus_nero.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -22,7 +22,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "bottonePlusRotondoDarkMode.png",
+      "filename" : "bottone_plus_bianco.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -37,7 +37,7 @@
           "value" : "light"
         }
       ],
-      "filename" : "bottonePlusRotondoLightMode@2x.png",
+      "filename" : "bottone_plus_nero 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
@@ -48,7 +48,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "bottonePlusRotondoDarkMode@2x.png",
+      "filename" : "bottone_plus_bianco 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
@@ -63,7 +63,7 @@
           "value" : "light"
         }
       ],
-      "filename" : "bottonePlusRotondoLightMode@3x.png",
+      "filename" : "bottone_plus_nero 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     },
@@ -74,7 +74,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "bottonePlusRotondoDarkMode@3x.png",
+      "filename" : "bottone_plus_bianco 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

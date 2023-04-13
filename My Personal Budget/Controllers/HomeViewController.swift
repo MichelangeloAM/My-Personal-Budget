@@ -7,7 +7,6 @@
 
 import UIKit
 
-
 class HomeViewController: UIViewController {
 
     @IBOutlet weak var titoloApp: UILabel!
@@ -22,7 +21,7 @@ class HomeViewController: UIViewController {
         // Animazione macchina da scrivere titolo
         titoloApp.text = ""
         var indiceChar = 0.0
-        let titoloApp = "Nome-App"
+        let titoloApp = K.Generic_Text.nomeApp
         for lettera in titoloApp {
             Timer.scheduledTimer(withTimeInterval: 0.1 * indiceChar, repeats: false) { (timer) in
                  self.titoloApp.text?.append(lettera)
@@ -32,7 +31,7 @@ class HomeViewController: UIViewController {
         
         mottoApp.text = ""
         var indiceCharMotto = 0.0
-        let mottoApp = "motto_app"
+        let mottoApp = K.Generic_Text.mottoApp
         for lettera in mottoApp {
             Timer.scheduledTimer(withTimeInterval: 0.05 * indiceCharMotto, repeats: false) { (timer) in
                  self.mottoApp.text?.append(lettera)

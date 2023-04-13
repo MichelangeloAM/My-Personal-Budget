@@ -31,7 +31,7 @@ class ProfiloViewController: UIViewController {
         title = "Profilo"
         navigationItem.hidesBackButton = true
         
-        labelProfilo.text = K.scrittaProfilo
+        labelProfilo.text = K.Generic_Text.scrittaProfilo
         
         
         // Accedo ai dati dell'utente

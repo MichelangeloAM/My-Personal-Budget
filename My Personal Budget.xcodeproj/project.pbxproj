@@ -11,7 +11,8 @@
 		076642E3274FE06A006433D3 /* ProfiloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076642DE274FE06A006433D3 /* ProfiloViewController.swift */; };
 		076642E4274FE06A006433D3 /* StatisticheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076642DF274FE06A006433D3 /* StatisticheViewController.swift */; };
 		076642E5274FE06A006433D3 /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076642E0274FE06A006433D3 /* PopoverViewController.swift */; };
-		076642E6274FE06A006433D3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076642E1274FE06A006433D3 /* WelcomeViewController.swift */; };
+		07717F3B275013150017E73D /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 07717F3A275013150017E73D /* IQKeyboardManagerSwift */; };
+		07717F3D2750E7A40017E73D /* BenvenutoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07717F3C2750E7A40017E73D /* BenvenutoViewController.swift */; };
 		07A8CEAD2731602400BA8286 /* RegistratiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8CEAC2731602400BA8286 /* RegistratiViewController.swift */; };
 		07A8CEAF2731603C00BA8286 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8CEAE2731603C00BA8286 /* LoginViewController.swift */; };
 		07A8CEB12731783B00BA8286 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8CEB02731783B00BA8286 /* HomeViewController.swift */; };
@@ -20,10 +21,6 @@
 		07F8634B273063D70096BA6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F86349273063D70096BA6F /* Main.storyboard */; };
 		07F8634D273063D80096BA6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F8634C273063D80096BA6F /* Assets.xcassets */; };
 		07F86350273063D80096BA6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F8634E273063D80096BA6F /* LaunchScreen.storyboard */; };
-		07F8635B273063D90096BA6F /* My_Personal_BudgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F8635A273063D90096BA6F /* My_Personal_BudgetTests.swift */; };
-		07F86365273063D90096BA6F /* My_Personal_BudgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F86364273063D90096BA6F /* My_Personal_BudgetUITests.swift */; };
-		07F86367273063D90096BA6F /* My_Personal_BudgetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F86366273063D90096BA6F /* My_Personal_BudgetUITestsLaunchTests.swift */; };
-		07F86375273067C10096BA6F /* GhostTypewriter in Frameworks */ = {isa = PBXBuildFile; productRef = 07F86374273067C10096BA6F /* GhostTypewriter */; };
 		07F8637A273069280096BA6F /* Costanti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F86379273069280096BA6F /* Costanti.swift */; };
 		07F8638A273080D30096BA6F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 07F86389273080D30096BA6F /* FirebaseAnalytics */; };
 		07F8638C273080D30096BA6F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 07F8638B273080D30096BA6F /* FirebaseAuth */; };
@@ -53,7 +50,7 @@
 		076642DE274FE06A006433D3 /* ProfiloViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfiloViewController.swift; sourceTree = "<group>"; };
 		076642DF274FE06A006433D3 /* StatisticheViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticheViewController.swift; sourceTree = "<group>"; };
 		076642E0274FE06A006433D3 /* PopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
-		076642E1274FE06A006433D3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		07717F3C2750E7A40017E73D /* BenvenutoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenvenutoViewController.swift; sourceTree = "<group>"; };
 		07A8CEAC2731602400BA8286 /* RegistratiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistratiViewController.swift; sourceTree = "<group>"; };
 		07A8CEAE2731603C00BA8286 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		07A8CEB02731783B00BA8286 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -65,10 +62,7 @@
 		07F8634F273063D80096BA6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07F86351273063D80096BA6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07F86356273063D90096BA6F /* My Personal BudgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Personal BudgetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		07F8635A273063D90096BA6F /* My_Personal_BudgetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Personal_BudgetTests.swift; sourceTree = "<group>"; };
 		07F86360273063D90096BA6F /* My Personal BudgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Personal BudgetUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		07F86364273063D90096BA6F /* My_Personal_BudgetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Personal_BudgetUITests.swift; sourceTree = "<group>"; };
-		07F86366273063D90096BA6F /* My_Personal_BudgetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Personal_BudgetUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		07F86379273069280096BA6F /* Costanti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Costanti.swift; sourceTree = "<group>"; };
 		07F8638F273081570096BA6F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,9 +73,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				07F8638A273080D30096BA6F /* FirebaseAnalytics in Frameworks */,
+				07717F3B275013150017E73D /* IQKeyboardManagerSwift in Frameworks */,
 				07F8638E273080D30096BA6F /* FirebaseFirestore in Frameworks */,
 				07F8638C273080D30096BA6F /* FirebaseAuth in Frameworks */,
-				07F86375273067C10096BA6F /* GhostTypewriter in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,8 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				07F86342273063D70096BA6F /* My Personal Budget */,
-				07F86359273063D90096BA6F /* My Personal BudgetTests */,
-				07F86363273063D90096BA6F /* My Personal BudgetUITests */,
 				07F86341273063D70096BA6F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -138,23 +130,6 @@
 			path = "My Personal Budget";
 			sourceTree = "<group>";
 		};
-		07F86359273063D90096BA6F /* My Personal BudgetTests */ = {
-			isa = PBXGroup;
-			children = (
-				07F8635A273063D90096BA6F /* My_Personal_BudgetTests.swift */,
-			);
-			path = "My Personal BudgetTests";
-			sourceTree = "<group>";
-		};
-		07F86363273063D90096BA6F /* My Personal BudgetUITests */ = {
-			isa = PBXGroup;
-			children = (
-				07F86364273063D90096BA6F /* My_Personal_BudgetUITests.swift */,
-				07F86366273063D90096BA6F /* My_Personal_BudgetUITestsLaunchTests.swift */,
-			);
-			path = "My Personal BudgetUITests";
-			sourceTree = "<group>";
-		};
 		07F8637E27306B9B0096BA6F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,10 +137,10 @@
 				076642E0274FE06A006433D3 /* PopoverViewController.swift */,
 				076642DE274FE06A006433D3 /* ProfiloViewController.swift */,
 				076642DF274FE06A006433D3 /* StatisticheViewController.swift */,
-				076642E1274FE06A006433D3 /* WelcomeViewController.swift */,
 				07A8CEAC2731602400BA8286 /* RegistratiViewController.swift */,
 				07A8CEAE2731603C00BA8286 /* LoginViewController.swift */,
 				07A8CEB02731783B00BA8286 /* HomeViewController.swift */,
+				07717F3C2750E7A40017E73D /* BenvenutoViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -187,10 +162,10 @@
 			);
 			name = "My Personal Budget";
 			packageProductDependencies = (
-				07F86374273067C10096BA6F /* GhostTypewriter */,
 				07F86389273080D30096BA6F /* FirebaseAnalytics */,
 				07F8638B273080D30096BA6F /* FirebaseAuth */,
 				07F8638D273080D30096BA6F /* FirebaseFirestore */,
+				07717F3A275013150017E73D /* IQKeyboardManagerSwift */,
 			);
 			productName = "My Personal Budget";
 			productReference = 07F86340273063D70096BA6F /* My Personal Budget.app */;
@@ -314,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				076642E4274FE06A006433D3 /* StatisticheViewController.swift in Sources */,
+				07717F3D2750E7A40017E73D /* BenvenutoViewController.swift in Sources */,
 				076642E3274FE06A006433D3 /* ProfiloViewController.swift in Sources */,
 				076642E2274FE06A006433D3 /* InserisciViewController.swift in Sources */,
 				07A8CEAF2731603C00BA8286 /* LoginViewController.swift in Sources */,
@@ -321,7 +297,6 @@
 				07F86344273063D70096BA6F /* AppDelegate.swift in Sources */,
 				07F8637A273069280096BA6F /* Costanti.swift in Sources */,
 				076642E5274FE06A006433D3 /* PopoverViewController.swift in Sources */,
-				076642E6274FE06A006433D3 /* WelcomeViewController.swift in Sources */,
 				07A8CEB12731783B00BA8286 /* HomeViewController.swift in Sources */,
 				07F86346273063D70096BA6F /* SceneDelegate.swift in Sources */,
 			);
@@ -331,7 +306,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07F8635B273063D90096BA6F /* My_Personal_BudgetTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,8 +313,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07F86365273063D90096BA6F /* My_Personal_BudgetUITests.swift in Sources */,
-				07F86367273063D90096BA6F /* My_Personal_BudgetUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,8 +481,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -538,8 +509,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -718,10 +688,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		07F86374273067C10096BA6F /* GhostTypewriter */ = {
+		07717F3A275013150017E73D /* IQKeyboardManagerSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 07F86373273067C10096BA6F /* XCRemoteSwiftPackageReference "GhostTypewriter" */;
-			productName = GhostTypewriter;
+			package = 07F86376273067CD0096BA6F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
 		};
 		07F86389273080D30096BA6F /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;

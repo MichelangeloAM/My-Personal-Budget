@@ -75,7 +75,7 @@ class RegistratiViewController: UIViewController {
     }
     
     func mostraErrore(_ message:String) {
-        labelErrore.text = K.messaggioErrore
+        labelErrore.text = K.Generic_Text.messaggioErrore
     }
 
 }
