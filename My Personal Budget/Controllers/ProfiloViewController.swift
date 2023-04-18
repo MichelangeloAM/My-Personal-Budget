@@ -28,7 +28,7 @@ class ProfiloViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        title = "Profilo"
+        title = K.Generic_Text.scrittaProfilo
         navigationItem.hidesBackButton = true
                 
         

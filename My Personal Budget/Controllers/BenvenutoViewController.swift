@@ -21,7 +21,7 @@ class BenvenutoViewController: UIViewController {
         // HTML
         view.addSubview(webView)
         
-        guard let url = URL(string: "https://youtube.com") else {
+        guard let url = URL(string: "https://youtube.com/shorts/clnFmbUaP1Y?feature=share") else {
             return
         }
         
@@ -41,16 +41,6 @@ class BenvenutoViewController: UIViewController {
         webView.load(URLRequest(url: url))
         
         // Fine HTML
-        
-//        title = K.Generic_Text.nomeApp
-
-//        welcomeLabel.text = "Benvenuto!"
-//
-//        introApp.text = K.App_Text.introApp
-//
-//        tutorialProfilo.text = K.App_Text.tutorialProfilo
-//
-//        tutorialInserisci.text = K.App_Text.tutorialInserisciHome
         
     }
 }
@@ -75,7 +65,6 @@ class MyTabbarController: UITabBarController {
 //        super.viewDidLoad()
         
         super.viewDidLayoutSubviews()
-//        webView. = CGRect(x: 0, y: 50, width: 400, height: 800)
         
         self.navigationItem.hidesBackButton = true
         

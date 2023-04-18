@@ -10,12 +10,13 @@
 		076642E2274FE06A006433D3 /* InserisciViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076642DD274FE06A006433D3 /* InserisciViewController.swift */; };
 		076642E3274FE06A006433D3 /* ProfiloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076642DE274FE06A006433D3 /* ProfiloViewController.swift */; };
 		076642E4274FE06A006433D3 /* StatisticheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076642DF274FE06A006433D3 /* StatisticheViewController.swift */; };
-		076642E5274FE06A006433D3 /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076642E0274FE06A006433D3 /* PopoverViewController.swift */; };
 		07717F3B275013150017E73D /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 07717F3A275013150017E73D /* IQKeyboardManagerSwift */; };
 		07717F3D2750E7A40017E73D /* BenvenutoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07717F3C2750E7A40017E73D /* BenvenutoViewController.swift */; };
 		07A8CEAD2731602400BA8286 /* RegistratiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8CEAC2731602400BA8286 /* RegistratiViewController.swift */; };
 		07A8CEAF2731603C00BA8286 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8CEAE2731603C00BA8286 /* LoginViewController.swift */; };
 		07A8CEB12731783B00BA8286 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8CEB02731783B00BA8286 /* HomeViewController.swift */; };
+		07BEF9AB29EF1CCE00D90FF9 /* UsciteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BEF9AA29EF1CCE00D90FF9 /* UsciteViewController.swift */; };
+		07BEF9AD29EF1CEB00D90FF9 /* EntrateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BEF9AC29EF1CEB00D90FF9 /* EntrateViewController.swift */; };
 		07F86344273063D70096BA6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F86343273063D70096BA6F /* AppDelegate.swift */; };
 		07F86346273063D70096BA6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F86345273063D70096BA6F /* SceneDelegate.swift */; };
 		07F8634B273063D70096BA6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F86349273063D70096BA6F /* Main.storyboard */; };
@@ -49,11 +50,12 @@
 		076642DD274FE06A006433D3 /* InserisciViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InserisciViewController.swift; sourceTree = "<group>"; };
 		076642DE274FE06A006433D3 /* ProfiloViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfiloViewController.swift; sourceTree = "<group>"; };
 		076642DF274FE06A006433D3 /* StatisticheViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticheViewController.swift; sourceTree = "<group>"; };
-		076642E0274FE06A006433D3 /* PopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
 		07717F3C2750E7A40017E73D /* BenvenutoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenvenutoViewController.swift; sourceTree = "<group>"; };
 		07A8CEAC2731602400BA8286 /* RegistratiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistratiViewController.swift; sourceTree = "<group>"; };
 		07A8CEAE2731603C00BA8286 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		07A8CEB02731783B00BA8286 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		07BEF9AA29EF1CCE00D90FF9 /* UsciteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsciteViewController.swift; sourceTree = "<group>"; };
+		07BEF9AC29EF1CEB00D90FF9 /* EntrateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntrateViewController.swift; sourceTree = "<group>"; };
 		07F86340273063D70096BA6F /* My Personal Budget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Personal Budget.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F86343273063D70096BA6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07F86345273063D70096BA6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -134,13 +136,14 @@
 			isa = PBXGroup;
 			children = (
 				076642DD274FE06A006433D3 /* InserisciViewController.swift */,
-				076642E0274FE06A006433D3 /* PopoverViewController.swift */,
 				076642DE274FE06A006433D3 /* ProfiloViewController.swift */,
 				076642DF274FE06A006433D3 /* StatisticheViewController.swift */,
 				07A8CEAC2731602400BA8286 /* RegistratiViewController.swift */,
 				07A8CEAE2731603C00BA8286 /* LoginViewController.swift */,
 				07A8CEB02731783B00BA8286 /* HomeViewController.swift */,
 				07717F3C2750E7A40017E73D /* BenvenutoViewController.swift */,
+				07BEF9AA29EF1CCE00D90FF9 /* UsciteViewController.swift */,
+				07BEF9AC29EF1CEB00D90FF9 /* EntrateViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -296,7 +299,8 @@
 				07A8CEAD2731602400BA8286 /* RegistratiViewController.swift in Sources */,
 				07F86344273063D70096BA6F /* AppDelegate.swift in Sources */,
 				07F8637A273069280096BA6F /* Costanti.swift in Sources */,
-				076642E5274FE06A006433D3 /* PopoverViewController.swift in Sources */,
+				07BEF9AB29EF1CCE00D90FF9 /* UsciteViewController.swift in Sources */,
+				07BEF9AD29EF1CEB00D90FF9 /* EntrateViewController.swift in Sources */,
 				07A8CEB12731783B00BA8286 /* HomeViewController.swift in Sources */,
 				07F86346273063D70096BA6F /* SceneDelegate.swift in Sources */,
 			);

@@ -13,11 +13,13 @@ class InserisciViewController: UIViewController {
     
     @IBOutlet weak var labelInserisci: UILabel!
     @IBOutlet weak var labelTutorialInserisci: UILabel!
+    @IBOutlet weak var buttonEntrate: UIButton!
+    @IBOutlet weak var buttonUscite: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        title = "Inserisci Dati"
+        title = K.Generic_Text.scrittaInserisci
         navigationItem.hidesBackButton = true
         
         labelTutorialInserisci.text = K.App_Text.tutorialInserisci

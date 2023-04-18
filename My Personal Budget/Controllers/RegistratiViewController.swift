@@ -70,7 +70,6 @@ class RegistratiViewController: UIViewController {
                                 print("Documento aggiunto con successo!")
                             }
                         }
-
                         // Naviga alla pagina successiva qui
                         self.performSegue(withIdentifier: "registratiAWelcome", sender:self)
                     }

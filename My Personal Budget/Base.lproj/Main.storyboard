@@ -14,7 +14,7 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="My_Personal_Budget" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8bC-Xf-vdC" customClass="viewcontroller">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="viewcontroller">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -22,24 +22,24 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="MCr-Jx-HP1">
-                                <rect key="frame" x="60.666666666666657" y="328" width="272" height="70.333333333333314"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="MCr-Jx-HP1">
+                                <rect key="frame" x="60.666666666666657" y="328" width="271.66666666666674" height="70.333333333333314"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Personal Budget" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DLu-SF-05A">
-                                        <rect key="frame" x="0.0" y="0.0" width="272" height="32.666666666666664"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="271.66666666666669" height="32.666666666666664"/>
                                         <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="25"/>
                                         <color key="textColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Motto" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i2g-tb-cxM">
-                                        <rect key="frame" x="115.33333333333333" y="50.666666666666686" width="41.333333333333329" height="19.666666666666671"/>
+                                        <rect key="frame" x="115.33333333333331" y="50.666666666666686" width="41" height="19.666666666666671"/>
                                         <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
                                         <color key="textColor" cyan="0.75" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="deviceCMYK"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="logo_app_arrotondato" adjustsImageSizeForAccessibilityContentSizeCategory="YES" id="7Nz-EG-dhf">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_app_arrotondato" adjustsImageSizeForAccessibilityContentSizeCategory="YES" id="7Nz-EG-dhf">
                                 <rect key="frame" x="120.29492178436817" y="142.00000000001342" width="149.99999999997294" height="150.00000000002694"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -47,7 +47,7 @@
                                     <constraint firstAttribute="height" constant="150" id="HzD-Xv-ANe"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qad-LF-iun">
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qad-LF-iun">
                                 <rect key="frame" x="107.66666666666669" y="484.33333333333326" width="178" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="Rie-Ws-8Kr"/>
@@ -63,7 +63,7 @@
                                     <segue destination="dS4-i0-TQq" kind="show" id="Bqo-TT-XN8"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pfX-kx-SNj">
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pfX-kx-SNj">
                                 <rect key="frame" x="107.66666666666669" y="582.33333333333337" width="178" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="0bu-go-fzq"/>
@@ -130,13 +130,13 @@
                                 <rect key="frame" x="50" y="256" width="292.66666666666669" height="244.33333333333337"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TextField-1" translatesAutoresizingMaskIntoConstraints="NO" id="bB8-4X-NOr" userLabel="textFieldEmail">
-                                        <rect key="frame" x="0.0" y="0.0" width="292.66666666666669" height="42.666666666666664"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="292.66666666666669" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="bB8-4X-NOr" secondAttribute="height" multiplier="252:43" id="xZH-BN-Hmd"/>
                                         </constraints>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TextField-1" translatesAutoresizingMaskIntoConstraints="NO" id="Nn0-zK-5yV" userLabel="textFieldPassword">
-                                        <rect key="frame" x="0.0" y="61.666666666666686" width="292.66666666666669" height="50"/>
+                                        <rect key="frame" x="0.0" y="69" width="292.66666666666669" height="42.666666666666657"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Nn0-zK-5yV" secondAttribute="height" multiplier="253:43" id="9y5-yl-YWH"/>
                                         </constraints>
@@ -390,620 +390,592 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TESTO TUTORIALTESTO TUTORIALTESTO TUTORIALTESTO TUTORIALTESTO TUTORIALTESTO TUTORIALTESTO TUTORIALTESTO TUTORIAL" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kaE-79-HEN">
-                                <rect key="frame" x="9.6666666666666572" y="320" width="374" height="81.333333333333314"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FRr-W8-uej" userLabel="UscitaButton">
+                                <rect key="frame" x="223" y="669" width="120" height="70"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="374" id="YdZ-o1-s5d"/>
+                                    <constraint firstAttribute="width" constant="120" id="NHs-UD-384"/>
+                                    <constraint firstAttribute="height" constant="70" id="rIj-hu-iEL"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Uscite" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
+                                    <color key="baseBackgroundColor" red="0.87256282569999999" green="0.45242619509999998" blue="0.36859983210000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="bottoneLogin:" destination="sZQ-r1-8j7" eventType="touchUpInside" id="SNf-8W-PHa"/>
+                                    <action selector="bottoneModifica:" destination="Wq7-3u-Zl1" eventType="touchUpInside" id="S5f-fj-PtG"/>
+                                    <segue destination="uBE-ym-gP7" kind="show" id="otN-Pd-VQX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wub-IQ-FjN" userLabel="EntrataButton">
+                                <rect key="frame" x="50" y="669" width="120" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="nZ1-md-ZfA"/>
+                                    <constraint firstAttribute="height" constant="70" id="rf6-Q3-Kwc"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Entrate" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
+                                    <color key="baseBackgroundColor" red="0.87256282569999999" green="0.45242619509999998" blue="0.36859983210000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="bottoneLogin:" destination="sZQ-r1-8j7" eventType="touchUpInside" id="Cht-P4-0rg"/>
+                                    <action selector="bottoneModifica:" destination="Wq7-3u-Zl1" eventType="touchUpInside" id="u21-tV-fNv"/>
+                                    <segue destination="atU-ZX-gFI" kind="show" id="QJh-Q1-pxE"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TESTO TUTORIALTESTO TUTORIALTESTO TUTORIALTESTO TUTORIALTESTO TUTORIALTESTO TUTORIALTESTO TUTORIALTESTO TUTORIAL" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kaE-79-HEN">
+                                <rect key="frame" x="16" y="218" width="361" height="81"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="YdZ-o1-s5d"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.1185613796" green="0.20756208900000001" blue="0.22353267669999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="llm-hk-Zeu" userLabel="inserisciTransazioneButton">
-                                <rect key="frame" x="313" y="692" width="60" height="60"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="rBL-Iv-jnn"/>
-                                    <constraint firstAttribute="width" constant="60" id="sr8-1n-eGa"/>
-                                </constraints>
-                                <color key="tintColor" systemColor="secondarySystemBackgroundColor"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" backgroundImage="bottonePlus"/>
-                                <connections>
-                                    <segue destination="Be4-k4-0Hd" kind="popoverPresentation" popoverAnchorView="llm-hk-Zeu" id="Cgd-sY-Uiu">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="oyZ-YZ-lnm"/>
                         <color key="backgroundColor" red="0.76123124360000005" green="0.89493829010000003" blue="0.83136588339999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="oyZ-YZ-lnm" firstAttribute="bottom" secondItem="FRr-W8-uej" secondAttribute="bottom" constant="30" id="FOx-Bq-bfa"/>
+                            <constraint firstItem="oyZ-YZ-lnm" firstAttribute="trailing" secondItem="FRr-W8-uej" secondAttribute="trailing" constant="50" id="Pih-GF-2wk"/>
                             <constraint firstItem="kaE-79-HEN" firstAttribute="centerX" secondItem="cKX-yh-Hun" secondAttribute="centerX" id="Uzl-sN-D9l"/>
-                            <constraint firstItem="kaE-79-HEN" firstAttribute="top" secondItem="oyZ-YZ-lnm" secondAttribute="top" constant="165" id="bXU-Za-uMD"/>
-                            <constraint firstItem="llm-hk-Zeu" firstAttribute="bottom" secondItem="oyZ-YZ-lnm" secondAttribute="bottom" constant="-17" id="q7o-cf-v96"/>
-                            <constraint firstItem="oyZ-YZ-lnm" firstAttribute="trailing" secondItem="llm-hk-Zeu" secondAttribute="trailing" constant="20" id="qYj-Aw-hwt"/>
+                            <constraint firstItem="kaE-79-HEN" firstAttribute="top" secondItem="oyZ-YZ-lnm" secondAttribute="top" constant="63" id="bXU-Za-uMD"/>
+                            <constraint firstItem="oyZ-YZ-lnm" firstAttribute="bottom" secondItem="Wub-IQ-FjN" secondAttribute="bottom" constant="30" id="c7H-MR-hhZ"/>
+                            <constraint firstItem="Wub-IQ-FjN" firstAttribute="leading" secondItem="oyZ-YZ-lnm" secondAttribute="leading" constant="50" id="lxI-RX-IUu"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Inserisci" id="yr0-wl-8oW"/>
+                    <navigationItem key="navigationItem" title="Transazioni" id="yr0-wl-8oW"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="buttonEntrate" destination="Wub-IQ-FjN" id="DOc-ju-40p"/>
+                        <outlet property="buttonUscite" destination="FRr-W8-uej" id="GZX-Mf-lhb"/>
                         <outlet property="labelTutorialInserisci" destination="kaE-79-HEN" id="CfV-OS-1VD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zCa-NL-EEI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3956.521739130435" y="1614.5089285714284"/>
+            <point key="canvasLocation" x="3956.4885496183206" y="1614.0845070422536"/>
         </scene>
-        <!--Popover View Controller-->
-        <scene sceneID="2m1-14-7A8">
+        <!--Entrate-->
+        <scene sceneID="cru-g1-xle">
             <objects>
-                <viewController id="Be4-k4-0Hd" customClass="PopoverViewController" customModule="My_Personal_Budget" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="geC-dc-kbn" customClass="PopoverViewController.swift">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                <viewController id="atU-ZX-gFI" customClass="EntrateViewController" customModule="My_Personal_Budget" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xt9-rm-bnc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Epn-E2-zSi">
-                                <rect key="frame" x="19.999999999999993" y="20.000000000000004" width="89.333333333333314" height="34.333333333333343"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Cancella"/>
-                                <connections>
-                                    <action selector="cancellaTransazione:" destination="Be4-k4-0Hd" eventType="touchUpInside" id="c1R-rC-poe"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o4O-cy-Zyn">
-                                <rect key="frame" x="310.33333333333331" y="20" width="62.666666666666686" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Fatto"/>
-                                <connections>
-                                    <action selector="bottoneAggiungi:" destination="Be4-k4-0Hd" eventType="touchUpInside" id="6Co-xh-7eN"/>
-                                    <action selector="cancellaTransazione:" destination="Be4-k4-0Hd" eventType="touchUpInside" id="t0k-WI-tS7"/>
-                                </connections>
-                            </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yjl-T3-UZA">
-                                <rect key="frame" x="0.0" y="56" width="398" height="786"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o7B-QC-xh9">
-                                        <rect key="frame" x="0.0" y="0.0" width="390" height="1300"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Entrate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sd9-1W-5oA">
-                                                <rect key="frame" x="112" y="29.999999999999996" width="166.66666666666697" height="41.666666666666657"/>
-                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="32"/>
-                                                <color key="textColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Uscite" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7l7-nk-4g1">
-                                                <rect key="frame" x="112" y="303" width="166.66666666666697" height="42"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="42" id="HLh-oO-c9E"/>
-                                                    <constraint firstAttribute="width" constant="166.66666666666697" id="smq-1P-9rn"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="32"/>
-                                                <color key="textColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8a-wK-Q6H" userLabel="Housing">
-                                                <rect key="frame" x="53" y="366" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="60" id="Tai-H6-0Nb"/>
-                                                    <constraint firstAttribute="height" constant="60" id="gdM-Eh-AMV"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
-                                                    <imageReference key="image" image="eurosign" catalog="system" symbolScale="large" variableValue="0.0"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LEf-IW-i2r" userLabel="Transport">
-                                                <rect key="frame" x="165" y="366" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="60" id="Vzl-gE-bEb"/>
-                                                    <constraint firstAttribute="height" constant="60" id="rau-UA-GzD"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
-                                                    <imageReference key="image" image="zzz" catalog="system" symbolScale="large" variableValue="0.0"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qfh-Wg-PFI" userLabel="Food">
-                                                <rect key="frame" x="281" y="366" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="60" id="T7i-q2-uac"/>
-                                                    <constraint firstAttribute="width" constant="60" id="bRa-Ka-LDh"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
-                                                    <imageReference key="image" image="chart.line.uptrend.xyaxis" catalog="system" symbolScale="large" variableValue="0.0"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4SJ-0s-IrS" userLabel="Car">
-                                                <rect key="frame" x="53" y="470" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="60" id="36H-NW-Ooz"/>
-                                                    <constraint firstAttribute="height" constant="60" id="jIF-RD-RBw"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
-                                                    <imageReference key="image" image="gift.fill" catalog="system" symbolScale="large" variableValue="0.0"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RmJ-hB-jT3" userLabel="Utilities">
-                                                <rect key="frame" x="165" y="470" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="60" id="UTs-WS-fDN"/>
-                                                    <constraint firstAttribute="width" constant="60" id="q7Q-PI-yCB"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
-                                                    <imageReference key="image" image="eurosign.circle.fill" catalog="system" symbolScale="large" variableValue="0.0"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UDR-HU-5Q2" userLabel="Clothing">
-                                                <rect key="frame" x="281" y="470" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="60" id="bK7-w3-7ab"/>
-                                                    <constraint firstAttribute="height" constant="60" id="ova-AK-6ry"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" image="shuffle" catalog="system" cornerStyle="large">
-                                                    <attributedString key="attributedTitle"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="age-Ng-Jrw" userLabel="Medical">
-                                                <rect key="frame" x="53" y="568" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="60" id="GSH-aU-fHE"/>
-                                                    <constraint firstAttribute="width" constant="60" id="vfr-v0-kNs"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
-                                                    <imageReference key="image" image="eurosign" catalog="system" symbolScale="large" variableValue="0.0"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Fi-g2-Ay0" userLabel="Insurance">
-                                                <rect key="frame" x="165" y="568" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="60" id="Rt5-AE-i5D"/>
-                                                    <constraint firstAttribute="width" constant="60" id="yxK-6P-d4X"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
-                                                    <imageReference key="image" image="zzz" catalog="system" symbolScale="large" variableValue="0.0"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kex-qy-xjF" userLabel="Supplies">
-                                                <rect key="frame" x="281" y="568" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="60" id="QFC-R5-ZX7"/>
-                                                    <constraint firstAttribute="height" constant="60" id="RgY-Fd-yf4"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
-                                                    <imageReference key="image" image="chart.line.uptrend.xyaxis" catalog="system" symbolScale="large" variableValue="0.0"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WXa-LN-Egl" userLabel="Personal">
-                                                <rect key="frame" x="53" y="672" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="60" id="68X-Sg-qXB"/>
-                                                    <constraint firstAttribute="height" constant="60" id="9Qy-I2-0ii"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
-                                                    <imageReference key="image" image="gift.fill" catalog="system" symbolScale="large" variableValue="0.0"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hyt-Z2-GJ9" userLabel="Dept">
-                                                <rect key="frame" x="165" y="672" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="60" id="OHa-xb-Wir"/>
-                                                    <constraint firstAttribute="height" constant="60" id="qHA-8I-yc3"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
-                                                    <imageReference key="image" image="eurosign.circle.fill" catalog="system" symbolScale="large" variableValue="0.0"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s79-Dn-2PS" userLabel="Investments">
-                                                <rect key="frame" x="281" y="672" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="60" id="hEb-xz-QzG"/>
-                                                    <constraint firstAttribute="height" constant="60" id="zKd-6E-QZf"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" image="shuffle" catalog="system" cornerStyle="large">
-                                                    <attributedString key="attributedTitle"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gF4-cw-Wn8" userLabel="Education">
-                                                <rect key="frame" x="53" y="764" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="60" id="RvT-Uj-Mjb"/>
-                                                    <constraint firstAttribute="height" constant="60" id="cf4-cI-Ms4"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
-                                                    <imageReference key="image" image="eurosign" catalog="system" symbolScale="large" variableValue="0.0"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FRd-hg-Kuk" userLabel="Gifts/Donations">
-                                                <rect key="frame" x="165" y="764" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="60" id="8sy-Xx-8NR"/>
-                                                    <constraint firstAttribute="width" constant="60" id="YlV-lj-kCs"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
-                                                    <imageReference key="image" image="zzz" catalog="system" symbolScale="large" variableValue="0.0"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cec-ll-8uk" userLabel="Leisure">
-                                                <rect key="frame" x="281" y="764" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="60" id="Ivg-Gj-4xg"/>
-                                                    <constraint firstAttribute="width" constant="60" id="eVW-rg-a2u"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
-                                                    <imageReference key="image" image="chart.line.uptrend.xyaxis" catalog="system" symbolScale="large" variableValue="0.0"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7C-1S-hot" userLabel="Gifts">
-                                                <rect key="frame" x="53" y="868" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="60" id="MLM-QV-fe4"/>
-                                                    <constraint firstAttribute="height" constant="60" id="ma6-LY-iqy"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
-                                                    <imageReference key="image" image="gift.fill" catalog="system" symbolScale="large" variableValue="0.0"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FlN-uV-qla" userLabel="Reimbursments">
-                                                <rect key="frame" x="165" y="868" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="60" id="thx-V1-EFc"/>
-                                                    <constraint firstAttribute="height" constant="60" id="wBQ-Ck-SFa"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
-                                                    <imageReference key="image" image="eurosign.circle.fill" catalog="system" symbolScale="large" variableValue="0.0"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FDc-En-CxU" userLabel="Generic">
-                                                <rect key="frame" x="281" y="868" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="60" id="Lcb-f1-GrU"/>
-                                                    <constraint firstAttribute="height" constant="60" id="eQI-Zs-Dbd"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" image="shuffle" catalog="system" cornerStyle="large">
-                                                    <attributedString key="attributedTitle"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IiP-jV-dvh">
-                                                <rect key="frame" x="53" y="972" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="60" id="TEt-wu-bus"/>
-                                                    <constraint firstAttribute="width" constant="60" id="oWI-Np-KCz"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
-                                                    <imageReference key="image" image="eurosign" catalog="system" symbolScale="large" variableValue="0.0"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1HD-Fm-U2Q" userLabel="Passive">
-                                                <rect key="frame" x="165" y="972" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="60" id="KK0-jO-Ib6"/>
-                                                    <constraint firstAttribute="width" constant="60" id="MrN-v1-ui5"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
-                                                    <imageReference key="image" image="zzz" catalog="system" symbolScale="large" variableValue="0.0"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mJs-N7-r2Z" userLabel="Investments">
-                                                <rect key="frame" x="281" y="972" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="60" id="bTd-9o-f0X"/>
-                                                    <constraint firstAttribute="height" constant="60" id="zTg-jM-VIU"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
-                                                    <imageReference key="image" image="chart.line.uptrend.xyaxis" catalog="system" symbolScale="large" variableValue="0.0"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AYF-J8-nJF" userLabel="Gifts">
-                                                <rect key="frame" x="53" y="1076" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="60" id="HfW-22-lhc"/>
-                                                    <constraint firstAttribute="height" constant="60" id="N4D-ul-9lG"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
-                                                    <imageReference key="image" image="gift.fill" catalog="system" symbolScale="large" variableValue="0.0"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EsX-gf-ne8" userLabel="Reimbursments">
-                                                <rect key="frame" x="165" y="1076" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="60" id="BUB-g2-3uW"/>
-                                                    <constraint firstAttribute="width" constant="60" id="jyW-Vm-i3v"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
-                                                    <imageReference key="image" image="eurosign.circle.fill" catalog="system" symbolScale="large" variableValue="0.0"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N8F-gQ-U92" userLabel="Generic">
-                                                <rect key="frame" x="281" y="1076" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="60" id="K55-7h-AJN"/>
-                                                    <constraint firstAttribute="height" constant="60" id="saN-MN-Ouh"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" image="shuffle" catalog="system" cornerStyle="large">
-                                                    <attributedString key="attributedTitle"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TwM-yE-VvF">
-                                                <rect key="frame" x="51" y="90" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="60" id="3Qt-F2-y0G"/>
-                                                    <constraint firstAttribute="height" constant="60" id="ICv-vD-xox"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
-                                                    <imageReference key="image" image="eurosign" catalog="system" symbolScale="large" variableValue="0.0"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0zx-5H-10T" userLabel="Passive">
-                                                <rect key="frame" x="165" y="90" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="60" id="9aS-as-cYU"/>
-                                                    <constraint firstAttribute="height" constant="60" id="LFC-r1-dqI"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
-                                                    <imageReference key="image" image="zzz" catalog="system" symbolScale="large" variableValue="0.0"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yoY-7C-RTD" userLabel="Investments">
-                                                <rect key="frame" x="279" y="90" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="60" id="JZU-Xp-Lpi"/>
-                                                    <constraint firstAttribute="width" constant="60" id="sNj-zy-arE"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
-                                                    <imageReference key="image" image="chart.line.uptrend.xyaxis" catalog="system" symbolScale="large" variableValue="0.0"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iqk-0A-fLr" userLabel="Gifts">
-                                                <rect key="frame" x="51" y="194" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="60" id="17e-j7-FKm"/>
-                                                    <constraint firstAttribute="height" constant="60" id="i7T-b7-yQu"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
-                                                    <imageReference key="image" image="gift.fill" catalog="system" symbolScale="large" variableValue="0.0"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbx-u4-OpZ" userLabel="Reimbursments">
-                                                <rect key="frame" x="165" y="197" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="60" id="QQj-n6-Bey"/>
-                                                    <constraint firstAttribute="height" constant="60" id="Waw-Ji-ane"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
-                                                    <imageReference key="image" image="eurosign.circle.fill" catalog="system" symbolScale="large" variableValue="0.0"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vhX-LO-DKv" userLabel="Generic">
-                                                <rect key="frame" x="279" y="194" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="60" id="4Xg-NZ-7hr"/>
-                                                    <constraint firstAttribute="height" constant="60" id="OMV-lZ-iKy"/>
-                                                </constraints>
-                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
-                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <buttonConfiguration key="configuration" style="filled" image="shuffle" catalog="system" cornerStyle="large">
-                                                    <attributedString key="attributedTitle"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.76123124360000005" green="0.89493829010000003" blue="0.83136588339999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <constraints>
-                                            <constraint firstItem="vhX-LO-DKv" firstAttribute="top" secondItem="yoY-7C-RTD" secondAttribute="bottom" constant="44" id="01X-pu-1m1"/>
-                                            <constraint firstItem="FlN-uV-qla" firstAttribute="centerX" secondItem="o7B-QC-xh9" secondAttribute="centerX" id="05B-ZM-0QL"/>
-                                            <constraint firstItem="RmJ-hB-jT3" firstAttribute="centerX" secondItem="o7B-QC-xh9" secondAttribute="centerX" id="13g-1J-JWd"/>
-                                            <constraint firstItem="Iqk-0A-fLr" firstAttribute="leading" secondItem="o7B-QC-xh9" secondAttribute="leading" constant="51" id="20z-Gr-f4n"/>
-                                            <constraint firstItem="TwM-yE-VvF" firstAttribute="top" secondItem="o7B-QC-xh9" secondAttribute="top" constant="90" id="9lW-uz-TAz"/>
-                                            <constraint firstItem="FRd-hg-Kuk" firstAttribute="centerX" secondItem="o7B-QC-xh9" secondAttribute="centerX" id="D76-nm-vzd"/>
-                                            <constraint firstItem="EsX-gf-ne8" firstAttribute="centerX" secondItem="o7B-QC-xh9" secondAttribute="centerX" id="ESD-Ob-MEB"/>
-                                            <constraint firstItem="0zx-5H-10T" firstAttribute="top" secondItem="o7B-QC-xh9" secondAttribute="top" constant="90" id="HHF-Ub-X5C"/>
-                                            <constraint firstItem="LEf-IW-i2r" firstAttribute="centerX" secondItem="o7B-QC-xh9" secondAttribute="centerX" id="MB3-dO-xSK"/>
-                                            <constraint firstItem="TwM-yE-VvF" firstAttribute="leading" secondItem="o7B-QC-xh9" secondAttribute="leading" constant="51" id="Met-5S-Wp5"/>
-                                            <constraint firstItem="0zx-5H-10T" firstAttribute="centerX" secondItem="o7B-QC-xh9" secondAttribute="centerX" id="R4L-jj-ZTq"/>
-                                            <constraint firstItem="6Fi-g2-Ay0" firstAttribute="centerX" secondItem="o7B-QC-xh9" secondAttribute="centerX" id="TB4-U8-h5t"/>
-                                            <constraint firstItem="gbx-u4-OpZ" firstAttribute="centerX" secondItem="o7B-QC-xh9" secondAttribute="centerX" id="TVu-QE-S35"/>
-                                            <constraint firstItem="1HD-Fm-U2Q" firstAttribute="centerX" secondItem="o7B-QC-xh9" secondAttribute="centerX" id="UpA-PV-waw"/>
-                                            <constraint firstItem="Iqk-0A-fLr" firstAttribute="top" secondItem="TwM-yE-VvF" secondAttribute="bottom" constant="44" id="Zff-un-v3P"/>
-                                            <constraint firstAttribute="trailing" secondItem="vhX-LO-DKv" secondAttribute="trailing" constant="51" id="ab3-nB-eMs"/>
-                                            <constraint firstAttribute="trailing" secondItem="yoY-7C-RTD" secondAttribute="trailing" constant="51" id="amI-KQ-Z0k"/>
-                                            <constraint firstItem="Hyt-Z2-GJ9" firstAttribute="centerX" secondItem="o7B-QC-xh9" secondAttribute="centerX" id="fBe-fv-H8I"/>
-                                            <constraint firstItem="yoY-7C-RTD" firstAttribute="top" secondItem="o7B-QC-xh9" secondAttribute="top" constant="90" id="mI7-eR-RX1"/>
-                                            <constraint firstAttribute="height" constant="1300" id="rOQ-6c-EIo"/>
-                                            <constraint firstItem="gbx-u4-OpZ" firstAttribute="top" secondItem="0zx-5H-10T" secondAttribute="bottom" constant="47" id="sgx-Ca-ThH"/>
-                                            <constraint firstItem="Sd9-1W-5oA" firstAttribute="top" secondItem="o7B-QC-xh9" secondAttribute="top" constant="30" id="udX-qS-D12"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TwM-yE-VvF">
+                                <rect key="frame" x="52" y="203" width="60" height="60"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="o7B-QC-xh9" secondAttribute="bottom" id="1PW-6e-n7s"/>
-                                    <constraint firstItem="o7B-QC-xh9" firstAttribute="top" secondItem="Yjl-T3-UZA" secondAttribute="top" id="nkK-fC-oPo"/>
-                                    <constraint firstAttribute="trailing" secondItem="o7B-QC-xh9" secondAttribute="trailing" id="o8j-ZX-FZp"/>
-                                    <constraint firstItem="o7B-QC-xh9" firstAttribute="leading" secondItem="Yjl-T3-UZA" secondAttribute="leading" id="rNH-hN-zHK"/>
+                                    <constraint firstAttribute="width" constant="60" id="3Qt-F2-y0G"/>
+                                    <constraint firstAttribute="height" constant="60" id="ICv-vD-xox"/>
                                 </constraints>
-                            </scrollView>
+                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                    <imageReference key="image" image="eurosign" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonEntrate:" destination="atU-ZX-gFI" eventType="touchUpInside" id="wOG-e5-BNS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yoY-7C-RTD" userLabel="Investments">
+                                <rect key="frame" x="281" y="203" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="JZU-Xp-Lpi"/>
+                                    <constraint firstAttribute="width" constant="60" id="sNj-zy-arE"/>
+                                </constraints>
+                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                    <imageReference key="image" image="chart.line.uptrend.xyaxis" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonInvestments:" destination="atU-ZX-gFI" eventType="touchUpInside" id="2ws-oJ-eXc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbx-u4-OpZ" userLabel="Reimbursments">
+                                <rect key="frame" x="166.66666666666666" y="310" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="QQj-n6-Bey"/>
+                                    <constraint firstAttribute="height" constant="60" id="Waw-Ji-ane"/>
+                                </constraints>
+                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                    <imageReference key="image" image="eurosign.circle.fill" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonReimbur:" destination="atU-ZX-gFI" eventType="touchUpInside" id="slX-UD-aP6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vhX-LO-DKv" userLabel="Generic">
+                                <rect key="frame" x="281" y="310" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="4Xg-NZ-7hr"/>
+                                    <constraint firstAttribute="height" constant="60" id="OMV-lZ-iKy"/>
+                                </constraints>
+                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" image="shuffle" catalog="system" cornerStyle="large">
+                                    <attributedString key="attributedTitle"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonGeneric:" destination="atU-ZX-gFI" eventType="touchUpInside" id="beG-v0-e2q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0zx-5H-10T" userLabel="Passive">
+                                <rect key="frame" x="166.66666666666666" y="203" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="9aS-as-cYU"/>
+                                    <constraint firstAttribute="height" constant="60" id="LFC-r1-dqI"/>
+                                </constraints>
+                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                    <imageReference key="image" image="zzz" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonPassive:" destination="atU-ZX-gFI" eventType="touchUpInside" id="kZV-9y-Enk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iqk-0A-fLr" userLabel="Gifts">
+                                <rect key="frame" x="52" y="310" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="17e-j7-FKm"/>
+                                    <constraint firstAttribute="height" constant="60" id="i7T-b7-yQu"/>
+                                </constraints>
+                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                    <imageReference key="image" image="gift.fill" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonGifts:" destination="atU-ZX-gFI" eventType="touchUpInside" id="pX9-f3-UXH"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wnW-wg-rju">
+                                <rect key="frame" x="81.666666666666671" y="481" width="229.66666666666663" height="20.333333333333314"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="wnW-wg-rju" secondAttribute="height" multiplier="113:10" id="TDR-qs-AzZ"/>
+                                    <constraint firstAttribute="height" constant="20.329999999999998" id="jDh-E4-aMf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="c0H-EL-lPq"/>
-                        <color key="backgroundColor" red="0.81176470588235294" green="0.94901961089999998" blue="0.94901961089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="tXr-Su-8ez"/>
+                        <color key="backgroundColor" red="0.76123124360000005" green="0.89493829010000003" blue="0.83136588339999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="o7B-QC-xh9" firstAttribute="width" secondItem="geC-dc-kbn" secondAttribute="width" multiplier="0.992366" id="sUf-89-dhU"/>
+                            <constraint firstItem="TwM-yE-VvF" firstAttribute="leading" secondItem="tXr-Su-8ez" secondAttribute="leading" constant="52" id="4Pg-Pq-rf7"/>
+                            <constraint firstItem="0zx-5H-10T" firstAttribute="top" secondItem="tXr-Su-8ez" secondAttribute="top" constant="48" id="9wr-Ab-NC9"/>
+                            <constraint firstItem="wnW-wg-rju" firstAttribute="centerX" secondItem="xt9-rm-bnc" secondAttribute="centerX" id="D50-BO-L52"/>
+                            <constraint firstItem="yoY-7C-RTD" firstAttribute="top" secondItem="tXr-Su-8ez" secondAttribute="top" constant="48" id="HAQ-gY-LxG"/>
+                            <constraint firstItem="gbx-u4-OpZ" firstAttribute="centerX" secondItem="xt9-rm-bnc" secondAttribute="centerX" id="Jn2-De-fUc"/>
+                            <constraint firstItem="wnW-wg-rju" firstAttribute="top" secondItem="gbx-u4-OpZ" secondAttribute="bottom" constant="111" id="Qsn-oi-WyQ"/>
+                            <constraint firstItem="0zx-5H-10T" firstAttribute="centerX" secondItem="xt9-rm-bnc" secondAttribute="centerX" id="ZsL-V8-euc"/>
+                            <constraint firstItem="tXr-Su-8ez" firstAttribute="trailing" secondItem="vhX-LO-DKv" secondAttribute="trailing" constant="52" id="aqU-7y-Pum"/>
+                            <constraint firstItem="gbx-u4-OpZ" firstAttribute="top" secondItem="0zx-5H-10T" secondAttribute="bottom" constant="47" id="fJh-VD-Xtz"/>
+                            <constraint firstItem="tXr-Su-8ez" firstAttribute="trailing" secondItem="yoY-7C-RTD" secondAttribute="trailing" constant="52" id="gta-C5-8LB"/>
+                            <constraint firstItem="Iqk-0A-fLr" firstAttribute="top" secondItem="TwM-yE-VvF" secondAttribute="bottom" constant="47" id="h9s-do-zLP"/>
+                            <constraint firstItem="vhX-LO-DKv" firstAttribute="top" secondItem="yoY-7C-RTD" secondAttribute="bottom" constant="47" id="iwW-2E-Jv9"/>
+                            <constraint firstItem="TwM-yE-VvF" firstAttribute="top" secondItem="tXr-Su-8ez" secondAttribute="top" constant="48" id="ll8-md-aPS"/>
+                            <constraint firstItem="Iqk-0A-fLr" firstAttribute="leading" secondItem="tXr-Su-8ez" secondAttribute="leading" constant="52" id="nQG-t6-uRY"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Entrate" id="Vi1-SL-bl4" customClass="EntrateViewController"/>
+                    <connections>
+                        <outlet property="labelErrore" destination="wnW-wg-rju" id="j8G-rG-zLf"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DYb-zM-h8o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="biG-N8-IqB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3956.4885496183206" y="2326.0563380281692"/>
+            <point key="canvasLocation" x="3490.8396946564885" y="2345.7746478873241"/>
+        </scene>
+        <!--Uscite-->
+        <scene sceneID="Mnt-8z-8nw">
+            <objects>
+                <viewController id="uBE-ym-gP7" customClass="UsciteViewController" customModule="My_Personal_Budget" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Tc-D3-tPc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8a-wK-Q6H" userLabel="Housing">
+                                <rect key="frame" x="52" y="203" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="Tai-H6-0Nb"/>
+                                    <constraint firstAttribute="height" constant="60" id="gdM-Eh-AMV"/>
+                                </constraints>
+                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                    <imageReference key="image" image="house" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonHome:" destination="uBE-ym-gP7" eventType="touchUpInside" id="dk9-oa-b5q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LEf-IW-i2r" userLabel="Transport">
+                                <rect key="frame" x="164" y="203" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="Vzl-gE-bEb"/>
+                                    <constraint firstAttribute="height" constant="60" id="rau-UA-GzD"/>
+                                </constraints>
+                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                    <imageReference key="image" image="bus.doubledecker.fill" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qfh-Wg-PFI" userLabel="Food">
+                                <rect key="frame" x="281" y="203" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="T7i-q2-uac"/>
+                                    <constraint firstAttribute="width" constant="60" id="bRa-Ka-LDh"/>
+                                </constraints>
+                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                    <imageReference key="image" image="fork.knife" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4SJ-0s-IrS" userLabel="Utilities">
+                                <rect key="frame" x="52" y="298" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="36H-NW-Ooz"/>
+                                    <constraint firstAttribute="height" constant="60" id="jIF-RD-RBw"/>
+                                </constraints>
+                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                    <imageReference key="image" image="drop" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RmJ-hB-jT3" userLabel="Clothing">
+                                <rect key="frame" x="164" y="298" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="UTs-WS-fDN"/>
+                                    <constraint firstAttribute="width" constant="60" id="q7Q-PI-yCB"/>
+                                </constraints>
+                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                    <imageReference key="image" image="tshirt" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UDR-HU-5Q2" userLabel="Medical">
+                                <rect key="frame" x="281" y="298" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="bK7-w3-7ab"/>
+                                    <constraint firstAttribute="height" constant="60" id="ova-AK-6ry"/>
+                                </constraints>
+                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" image="cross.case" catalog="system" cornerStyle="large">
+                                    <attributedString key="attributedTitle"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="age-Ng-Jrw" userLabel="Supplies">
+                                <rect key="frame" x="52" y="393" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="GSH-aU-fHE"/>
+                                    <constraint firstAttribute="width" constant="60" id="vfr-v0-kNs"/>
+                                </constraints>
+                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                    <imageReference key="image" image="bubbles.and.sparkles" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Fi-g2-Ay0" userLabel="PersonalCare">
+                                <rect key="frame" x="164" y="393" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Rt5-AE-i5D"/>
+                                    <constraint firstAttribute="width" constant="60" id="yxK-6P-d4X"/>
+                                </constraints>
+                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                    <imageReference key="image" image="person" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kex-qy-xjF" userLabel="Debt">
+                                <rect key="frame" x="281" y="393" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="QFC-R5-ZX7"/>
+                                    <constraint firstAttribute="height" constant="60" id="RgY-Fd-yf4"/>
+                                </constraints>
+                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                    <imageReference key="image" image="chart.line.downtrend.xyaxis" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WXa-LN-Egl" userLabel="Gifts">
+                                <rect key="frame" x="52" y="488" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="68X-Sg-qXB"/>
+                                    <constraint firstAttribute="height" constant="60" id="9Qy-I2-0ii"/>
+                                </constraints>
+                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                    <imageReference key="image" image="gift.fill" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hyt-Z2-GJ9" userLabel="Investments">
+                                <rect key="frame" x="164" y="488" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="OHa-xb-Wir"/>
+                                    <constraint firstAttribute="height" constant="60" id="qHA-8I-yc3"/>
+                                </constraints>
+                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                    <imageReference key="image" image="chart.line.uptrend.xyaxis" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gF4-cw-Wn8" userLabel="Sport">
+                                <rect key="frame" x="52" y="583" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="RvT-Uj-Mjb"/>
+                                    <constraint firstAttribute="height" constant="60" id="cf4-cI-Ms4"/>
+                                </constraints>
+                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                    <imageReference key="image" image="soccerball.inverse" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FRd-hg-Kuk" userLabel="Groceries">
+                                <rect key="frame" x="164" y="583" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="8sy-Xx-8NR"/>
+                                    <constraint firstAttribute="width" constant="60" id="YlV-lj-kCs"/>
+                                </constraints>
+                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                    <imageReference key="image" image="cart" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cec-ll-8uk" userLabel="Phone">
+                                <rect key="frame" x="281" y="583" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Ivg-Gj-4xg"/>
+                                    <constraint firstAttribute="width" constant="60" id="eVW-rg-a2u"/>
+                                </constraints>
+                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                    <imageReference key="image" image="phone" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7C-1S-hot" userLabel="Education">
+                                <rect key="frame" x="52" y="678" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="MLM-QV-fe4"/>
+                                    <constraint firstAttribute="height" constant="60" id="ma6-LY-iqy"/>
+                                </constraints>
+                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                    <imageReference key="image" image="graduationcap" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FlN-uV-qla" userLabel="Car">
+                                <rect key="frame" x="164" y="678" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="thx-V1-EFc"/>
+                                    <constraint firstAttribute="height" constant="60" id="wBQ-Ck-SFa"/>
+                                </constraints>
+                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                    <imageReference key="image" image="car" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FDc-En-CxU" userLabel="Fuel">
+                                <rect key="frame" x="281" y="678" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="Lcb-f1-GrU"/>
+                                    <constraint firstAttribute="height" constant="60" id="eQI-Zs-Dbd"/>
+                                </constraints>
+                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" image="fuelpump.fill" catalog="system" cornerStyle="large">
+                                    <attributedString key="attributedTitle"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s79-Dn-2PS" userLabel="Leisure">
+                                <rect key="frame" x="281" y="488" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="hEb-xz-QzG"/>
+                                    <constraint firstAttribute="height" constant="60" id="zKd-6E-QZf"/>
+                                </constraints>
+                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" image="sparkles.tv" catalog="system" cornerStyle="large">
+                                    <attributedString key="attributedTitle"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f83-YY-mjk">
+                                <rect key="frame" x="96.333333333333329" y="168" width="200.33333333333337" height="20.333333333333343"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20.329999999999998" id="IR4-RN-R2K"/>
+                                    <constraint firstAttribute="width" constant="200.33000000000001" id="w1r-7Y-Vix"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cAL-H5-1yM"/>
+                        <color key="backgroundColor" red="0.76123124360000005" green="0.89493829010000003" blue="0.83136588339999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="4SJ-0s-IrS" firstAttribute="top" secondItem="z8a-wK-Q6H" secondAttribute="bottom" constant="35" id="0Ag-hx-iha"/>
+                            <constraint firstItem="age-Ng-Jrw" firstAttribute="top" secondItem="4SJ-0s-IrS" secondAttribute="bottom" constant="35" id="2SH-Rs-Hdh"/>
+                            <constraint firstItem="6Fi-g2-Ay0" firstAttribute="top" secondItem="RmJ-hB-jT3" secondAttribute="bottom" constant="35" id="2X6-cw-rhC"/>
+                            <constraint firstItem="FlN-uV-qla" firstAttribute="top" secondItem="FRd-hg-Kuk" secondAttribute="bottom" constant="35" id="6ir-pS-6qV"/>
+                            <constraint firstItem="RmJ-hB-jT3" firstAttribute="top" secondItem="LEf-IW-i2r" secondAttribute="bottom" constant="35" id="9kW-8E-X63"/>
+                            <constraint firstItem="gF4-cw-Wn8" firstAttribute="top" secondItem="WXa-LN-Egl" secondAttribute="bottom" constant="35" id="CJc-zn-JTG"/>
+                            <constraint firstItem="UDR-HU-5Q2" firstAttribute="top" secondItem="Qfh-Wg-PFI" secondAttribute="bottom" constant="35" id="DhZ-qG-4sG"/>
+                            <constraint firstItem="N7C-1S-hot" firstAttribute="top" secondItem="gF4-cw-Wn8" secondAttribute="bottom" constant="35" id="HSY-I9-oCf"/>
+                            <constraint firstItem="LEf-IW-i2r" firstAttribute="centerX" secondItem="2Tc-D3-tPc" secondAttribute="centerX" constant="-2.5" id="IfL-JF-8X7"/>
+                            <constraint firstItem="FRd-hg-Kuk" firstAttribute="centerX" secondItem="2Tc-D3-tPc" secondAttribute="centerX" constant="-2.5" id="JBO-Jt-gew"/>
+                            <constraint firstItem="cec-ll-8uk" firstAttribute="top" secondItem="s79-Dn-2PS" secondAttribute="bottom" constant="35" id="JpW-jN-8o7"/>
+                            <constraint firstItem="age-Ng-Jrw" firstAttribute="leading" secondItem="cAL-H5-1yM" secondAttribute="leading" constant="52" id="KKw-Vx-vED"/>
+                            <constraint firstItem="gF4-cw-Wn8" firstAttribute="leading" secondItem="cAL-H5-1yM" secondAttribute="leading" constant="52" id="KvD-bW-kXE"/>
+                            <constraint firstItem="WXa-LN-Egl" firstAttribute="top" secondItem="age-Ng-Jrw" secondAttribute="bottom" constant="35" id="M7u-Zf-30r"/>
+                            <constraint firstItem="cAL-H5-1yM" firstAttribute="bottom" secondItem="f83-YY-mjk" secondAttribute="bottom" constant="580.66666666666663" id="O8U-2I-Fuc"/>
+                            <constraint firstItem="cAL-H5-1yM" firstAttribute="trailing" secondItem="kex-qy-xjF" secondAttribute="trailing" constant="52" id="Ofy-xi-hEd"/>
+                            <constraint firstItem="FRd-hg-Kuk" firstAttribute="top" secondItem="Hyt-Z2-GJ9" secondAttribute="bottom" constant="35" id="Q86-gE-JHo"/>
+                            <constraint firstItem="FlN-uV-qla" firstAttribute="centerX" secondItem="2Tc-D3-tPc" secondAttribute="centerX" constant="-2.5" id="ViF-v6-TTn"/>
+                            <constraint firstItem="4SJ-0s-IrS" firstAttribute="leading" secondItem="cAL-H5-1yM" secondAttribute="leading" constant="52" id="WGO-ef-roh"/>
+                            <constraint firstItem="cAL-H5-1yM" firstAttribute="trailing" secondItem="cec-ll-8uk" secondAttribute="trailing" constant="52" id="bRD-II-9Xn"/>
+                            <constraint firstItem="FDc-En-CxU" firstAttribute="top" secondItem="cec-ll-8uk" secondAttribute="bottom" constant="35" id="dOk-bF-fSR"/>
+                            <constraint firstItem="RmJ-hB-jT3" firstAttribute="centerX" secondItem="2Tc-D3-tPc" secondAttribute="centerX" constant="-2.5" id="eAD-lP-DBn"/>
+                            <constraint firstItem="Hyt-Z2-GJ9" firstAttribute="top" secondItem="6Fi-g2-Ay0" secondAttribute="bottom" constant="35" id="eFH-ow-Olx"/>
+                            <constraint firstItem="WXa-LN-Egl" firstAttribute="leading" secondItem="cAL-H5-1yM" secondAttribute="leading" constant="52" id="eag-nz-ls5"/>
+                            <constraint firstItem="cAL-H5-1yM" firstAttribute="trailing" secondItem="Qfh-Wg-PFI" secondAttribute="trailing" constant="52" id="ew2-xc-eGq"/>
+                            <constraint firstItem="z8a-wK-Q6H" firstAttribute="top" secondItem="cAL-H5-1yM" secondAttribute="top" constant="48" id="ghy-YP-LLk"/>
+                            <constraint firstItem="LEf-IW-i2r" firstAttribute="top" secondItem="cAL-H5-1yM" secondAttribute="top" constant="48" id="iVk-5T-crV"/>
+                            <constraint firstItem="N7C-1S-hot" firstAttribute="leading" secondItem="cAL-H5-1yM" secondAttribute="leading" constant="52" id="kpW-cv-7xe"/>
+                            <constraint firstItem="cAL-H5-1yM" firstAttribute="trailing" secondItem="s79-Dn-2PS" secondAttribute="trailing" constant="52" id="kv1-vJ-qfp"/>
+                            <constraint firstItem="Hyt-Z2-GJ9" firstAttribute="centerX" secondItem="2Tc-D3-tPc" secondAttribute="centerX" constant="-2.5" id="ldu-Ap-ufb"/>
+                            <constraint firstItem="6Fi-g2-Ay0" firstAttribute="centerX" secondItem="2Tc-D3-tPc" secondAttribute="centerX" constant="-2.5" id="n78-tQ-8Z5"/>
+                            <constraint firstItem="z8a-wK-Q6H" firstAttribute="leading" secondItem="cAL-H5-1yM" secondAttribute="leading" constant="52" id="pKc-Jj-m7e"/>
+                            <constraint firstItem="cAL-H5-1yM" firstAttribute="trailing" secondItem="FDc-En-CxU" secondAttribute="trailing" constant="52" id="qB4-8z-ZcJ"/>
+                            <constraint firstItem="s79-Dn-2PS" firstAttribute="top" secondItem="kex-qy-xjF" secondAttribute="bottom" constant="35" id="uil-By-1if"/>
+                            <constraint firstItem="cAL-H5-1yM" firstAttribute="trailing" secondItem="UDR-HU-5Q2" secondAttribute="trailing" constant="52" id="y6B-J1-2te"/>
+                            <constraint firstItem="f83-YY-mjk" firstAttribute="centerX" secondItem="2Tc-D3-tPc" secondAttribute="centerX" id="yOf-Ax-Xyz"/>
+                            <constraint firstItem="kex-qy-xjF" firstAttribute="top" secondItem="UDR-HU-5Q2" secondAttribute="bottom" constant="35" id="ybx-ly-TNS"/>
+                            <constraint firstItem="Qfh-Wg-PFI" firstAttribute="top" secondItem="cAL-H5-1yM" secondAttribute="top" constant="48" id="ywB-5D-xRt"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Uscite" id="LNi-JV-gKA"/>
+                    <connections>
+                        <outlet property="labelErrore" destination="f83-YY-mjk" id="noe-8l-Fu9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NUI-OB-gYK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4416" y="2346"/>
         </scene>
         <!--viewProfilo-->
         <scene sceneID="iHk-QH-IMK">
@@ -1076,7 +1048,7 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Modifica" cornerStyle="capsule">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                     <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                     <color key="baseBackgroundColor" red="0.87256282569999999" green="0.45242619509999998" blue="0.36859983210000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -1194,11 +1166,11 @@
             </objects>
             <point key="canvasLocation" x="3243" y="885"/>
         </scene>
-        <!--Inserisci Dati-->
+        <!--Transazioni-->
         <scene sceneID="BGt-cf-n3w">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YXJ-rg-PIA" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Inserisci Dati" image="plus.square.on.square.fill" catalog="system" id="GgV-gu-Yfe"/>
+                    <tabBarItem key="tabBarItem" title="Transazioni" image="plus.square.on.square.fill" catalog="system" id="GgV-gu-Yfe"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="QRX-Nr-8Ng"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="lWb-Tm-vFX">
@@ -1261,10 +1233,10 @@
                         <tabBarAppearance key="standardAppearance"/>
                     </tabBar>
                     <connections>
-                        <segue destination="neN-ZJ-3Lf" kind="relationship" relationship="viewControllers" id="0KM-Cg-xMI"/>
-                        <segue destination="Kz4-lW-tMu" kind="relationship" relationship="viewControllers" id="MH5-2n-6CW"/>
-                        <segue destination="YXJ-rg-PIA" kind="relationship" relationship="viewControllers" id="bdO-9z-c3U"/>
-                        <segue destination="4ec-WH-y0s" kind="relationship" relationship="viewControllers" id="ZAc-Ku-t6h"/>
+                        <segue destination="YXJ-rg-PIA" kind="relationship" relationship="viewControllers" id="UXf-8f-BgW"/>
+                        <segue destination="4ec-WH-y0s" kind="relationship" relationship="viewControllers" id="n4u-0Q-A6s"/>
+                        <segue destination="neN-ZJ-3Lf" kind="relationship" relationship="viewControllers" id="w20-gH-teK"/>
+                        <segue destination="Kz4-lW-tMu" kind="relationship" relationship="viewControllers" id="doL-6y-qPL"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AOG-Ux-cFM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1298,11 +1270,13 @@
             </objects>
             <point key="canvasLocation" x="5548.8549618320612" y="107.74647887323944"/>
         </scene>
-        <!--Home-->
+        <!--Help-->
         <scene sceneID="t96-GU-JTn">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="neN-ZJ-3Lf" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="F1q-MN-aMX"/>
+                    <tabBarItem key="tabBarItem" title="Help" id="F1q-MN-aMX" userLabel="Help">
+                        <imageReference key="image" image="questionmark.circle.fill" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ySZ-9m-JIu">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -1324,21 +1298,33 @@
     <resources>
         <image name="Sfondo_App" width="1440" height="2560"/>
         <image name="TextField-1" width="252" height="43"/>
-        <image name="bottonePlus" width="33.333332061767578" height="33.333332061767578"/>
+        <image name="bubbles.and.sparkles" catalog="system" width="128" height="112"/>
+        <image name="bus.doubledecker.fill" catalog="system" width="124" height="128"/>
+        <image name="car" catalog="system" width="128" height="95"/>
+        <image name="cart" catalog="system" width="128" height="102"/>
         <image name="chart.bar.xaxis" catalog="system" width="128" height="99"/>
+        <image name="chart.line.downtrend.xyaxis" catalog="system" width="128" height="102"/>
         <image name="chart.line.uptrend.xyaxis" catalog="system" width="128" height="102"/>
+        <image name="cross.case" catalog="system" width="128" height="100"/>
+        <image name="drop" catalog="system" width="96" height="128"/>
         <image name="eurosign" catalog="system" width="128" height="121"/>
         <image name="eurosign.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="fork.knife" catalog="system" width="94" height="128"/>
+        <image name="fuelpump.fill" catalog="system" width="128" height="125"/>
         <image name="gift.fill" catalog="system" width="128" height="125"/>
-        <image name="house.fill" catalog="system" width="128" height="104"/>
+        <image name="graduationcap" catalog="system" width="128" height="107"/>
+        <image name="house" catalog="system" width="128" height="104"/>
         <image name="logo_app_arrotondato" width="512" height="512"/>
+        <image name="person" catalog="system" width="128" height="121"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="phone" catalog="system" width="128" height="115"/>
         <image name="plus.square.on.square.fill" catalog="system" width="128" height="116"/>
+        <image name="questionmark.circle.fill" catalog="system" width="128" height="123"/>
         <image name="shuffle" catalog="system" width="128" height="95"/>
+        <image name="soccerball.inverse" catalog="system" width="128" height="123"/>
+        <image name="sparkles.tv" catalog="system" width="128" height="95"/>
+        <image name="tshirt" catalog="system" width="128" height="98"/>
         <image name="zzz" catalog="system" width="119" height="128"/>
-        <systemColor name="secondarySystemBackgroundColor">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
