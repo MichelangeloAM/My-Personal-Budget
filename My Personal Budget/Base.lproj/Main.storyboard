@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -293,40 +294,35 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7QI-J7-Ucm">
-                                <rect key="frame" x="20" y="173" width="164.66666666666666" height="41.666666666666657"/>
+                                <rect key="frame" x="20" y="173" width="166.66666666666666" height="41.666666666666657"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="7QI-J7-Ucm" secondAttribute="height" multiplier="162:41" id="6yh-gq-uyJ"/>
+                                    <constraint firstAttribute="width" secondItem="7QI-J7-Ucm" secondAttribute="height" multiplier="4:1" id="R9i-ZF-lly"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="32"/>
                                 <color key="textColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TextField-1" translatesAutoresizingMaskIntoConstraints="NO" id="qff-d4-3Gs" userLabel="textFieldEmail">
-                                <rect key="frame" x="70.666666666666686" y="289" width="252" height="43"/>
+                                <rect key="frame" x="70.333333333333329" y="297" width="252.33333333333337" height="43"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="qff-d4-3Gs" secondAttribute="height" multiplier="252:43" id="t0s-eJ-Lmh"/>
+                                    <constraint firstAttribute="width" secondItem="qff-d4-3Gs" secondAttribute="height" multiplier="252:43" id="79F-WA-NbA"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TextField-1" translatesAutoresizingMaskIntoConstraints="NO" id="oLp-j9-uVR" userLabel="textFieldPassword">
                                 <rect key="frame" x="70.666666666666686" y="348" width="252" height="43"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="oLp-j9-uVR" secondAttribute="height" multiplier="252:43" id="gcs-C9-LLx"/>
+                                    <constraint firstAttribute="width" secondItem="oLp-j9-uVR" secondAttribute="height" multiplier="252:43" id="I23-a1-NhK"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="utente@prova.it" placeholder="Email" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UpN-aZ-9Yx">
-                                <rect key="frame" x="78" y="290" width="236" height="24.666666666666686"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="UpN-aZ-9Yx" secondAttribute="height" multiplier="118:21" id="raa-8W-6du"/>
-                                </constraints>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="utente@prova.it" placeholder="Email" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UpN-aZ-9Yx">
+                                <rect key="frame" x="81" y="301" width="230" height="35"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9f-K4-jxV" userLabel="loginButton">
-                                <rect key="frame" x="122.33333333333333" y="428.33333333333331" width="148.33333333333337" height="50"/>
+                                <rect key="frame" x="139" y="435" width="115" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="a9f-K4-jxV" secondAttribute="height" multiplier="101:34" id="2Xz-zF-jaA"/>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="68.5" id="XIu-Yj-uPO"/>
-                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="202" id="wJf-sx-yzS"/>
+                                    <constraint firstAttribute="width" secondItem="a9f-K4-jxV" secondAttribute="height" multiplier="23:10" id="3Wb-A4-p87"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Login" cornerStyle="capsule">
@@ -339,20 +335,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUI-AU-G5n" userLabel="erroreLabel">
-                                <rect key="frame" x="47.666666666666657" y="532" width="298" height="35"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="78S-wb-6lb"/>
-                                    <constraint firstAttribute="width" constant="298" id="E9R-ZS-nCj"/>
-                                </constraints>
+                                <rect key="frame" x="196.66666666666666" y="531" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="13"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="000000" placeholder="Password" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kNc-D2-ds0">
-                                <rect key="frame" x="78" y="366.33333333333331" width="236" height="24"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="kNc-D2-ds0" secondAttribute="height" multiplier="118:21" id="j4f-TO-B0f"/>
-                                </constraints>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="000000" placeholder="Password" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kNc-D2-ds0">
+                                <rect key="frame" x="81" y="352" width="230" height="35"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES" textContentType="password"/>
                             </textField>
@@ -360,19 +349,25 @@
                         <viewLayoutGuide key="safeArea" id="Gkl-sA-ryR"/>
                         <color key="backgroundColor" red="0.76123124360000005" green="0.89493829010000003" blue="0.83136588339999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="UpN-aZ-9Yx" firstAttribute="top" secondItem="7QI-J7-Ucm" secondAttribute="bottom" constant="75.329999999999998" id="3gv-D5-Obd"/>
-                            <constraint firstItem="a9f-K4-jxV" firstAttribute="centerX" secondItem="jGU-9m-YXx" secondAttribute="centerX" id="Eau-UJ-iE5"/>
-                            <constraint firstItem="7QI-J7-Ucm" firstAttribute="top" secondItem="Gkl-sA-ryR" secondAttribute="top" constant="70" id="KFi-8I-9Sl"/>
-                            <constraint firstItem="gUI-AU-G5n" firstAttribute="top" secondItem="a9f-K4-jxV" secondAttribute="bottom" constant="53.670000000000002" id="TKx-Jn-dhs"/>
-                            <constraint firstItem="a9f-K4-jxV" firstAttribute="top" secondItem="oLp-j9-uVR" secondAttribute="bottom" constant="37.329999999999998" id="Vpg-za-PgX"/>
-                            <constraint firstItem="oLp-j9-uVR" firstAttribute="top" secondItem="qff-d4-3Gs" secondAttribute="bottom" constant="16" id="ZM1-r0-RQi"/>
-                            <constraint firstItem="gUI-AU-G5n" firstAttribute="centerX" secondItem="jGU-9m-YXx" secondAttribute="centerX" id="aEz-6E-c3H"/>
-                            <constraint firstItem="oLp-j9-uVR" firstAttribute="centerX" secondItem="jGU-9m-YXx" secondAttribute="centerX" id="aZt-Wi-oeK"/>
-                            <constraint firstItem="qff-d4-3Gs" firstAttribute="centerX" secondItem="jGU-9m-YXx" secondAttribute="centerX" id="eoX-8X-Sii"/>
-                            <constraint firstItem="qff-d4-3Gs" firstAttribute="top" secondItem="7QI-J7-Ucm" secondAttribute="bottom" constant="74.329999999999998" id="jgb-XB-PT4"/>
-                            <constraint firstItem="kNc-D2-ds0" firstAttribute="top" secondItem="qff-d4-3Gs" secondAttribute="bottom" constant="34.329999999999998" id="k9t-1s-WRP"/>
-                            <constraint firstItem="7QI-J7-Ucm" firstAttribute="leading" secondItem="Gkl-sA-ryR" secondAttribute="leading" constant="20" id="qDf-3x-WOS"/>
-                            <constraint firstItem="qff-d4-3Gs" firstAttribute="centerX" secondItem="jGU-9m-YXx" secondAttribute="centerX" id="qjW-oT-mKB"/>
+                            <constraint firstItem="oLp-j9-uVR" firstAttribute="top" secondItem="qff-d4-3Gs" secondAttribute="bottom" constant="8" id="7ts-HQ-cs1"/>
+                            <constraint firstItem="qff-d4-3Gs" firstAttribute="top" secondItem="Gkl-sA-ryR" secondAttribute="top" constant="194" id="EXs-ka-WKH"/>
+                            <constraint firstItem="kNc-D2-ds0" firstAttribute="centerY" secondItem="oLp-j9-uVR" secondAttribute="centerY" id="IW2-Zw-s4N"/>
+                            <constraint firstItem="UpN-aZ-9Yx" firstAttribute="centerX" secondItem="qff-d4-3Gs" secondAttribute="centerX" id="L39-xd-lpt"/>
+                            <constraint firstItem="oLp-j9-uVR" firstAttribute="top" secondItem="UpN-aZ-9Yx" secondAttribute="bottom" constant="12" id="Mvv-kO-eWj"/>
+                            <constraint firstItem="gUI-AU-G5n" firstAttribute="centerX" secondItem="jGU-9m-YXx" secondAttribute="centerX" id="NaM-LX-wk0"/>
+                            <constraint firstItem="kNc-D2-ds0" firstAttribute="top" secondItem="qff-d4-3Gs" secondAttribute="bottom" constant="12" id="OSl-Ig-6h0"/>
+                            <constraint firstItem="a9f-K4-jxV" firstAttribute="centerX" secondItem="jGU-9m-YXx" secondAttribute="centerX" id="SHx-Wh-6ts"/>
+                            <constraint firstItem="UpN-aZ-9Yx" firstAttribute="trailing" secondItem="kNc-D2-ds0" secondAttribute="trailing" id="YAn-IJ-vhW"/>
+                            <constraint firstItem="qff-d4-3Gs" firstAttribute="centerX" secondItem="jGU-9m-YXx" secondAttribute="centerX" id="eLT-22-78e"/>
+                            <constraint firstItem="oLp-j9-uVR" firstAttribute="centerX" secondItem="jGU-9m-YXx" secondAttribute="centerX" id="kPE-Mg-qOH"/>
+                            <constraint firstItem="7QI-J7-Ucm" firstAttribute="top" secondItem="Gkl-sA-ryR" secondAttribute="top" constant="70" id="lkq-pY-6cY"/>
+                            <constraint firstItem="UpN-aZ-9Yx" firstAttribute="centerY" secondItem="qff-d4-3Gs" secondAttribute="centerY" id="meO-so-g4K"/>
+                            <constraint firstItem="Gkl-sA-ryR" firstAttribute="trailing" secondItem="qff-d4-3Gs" secondAttribute="trailing" constant="70.329999999999998" id="niy-Qr-eTm"/>
+                            <constraint firstItem="gUI-AU-G5n" firstAttribute="top" secondItem="a9f-K4-jxV" secondAttribute="bottom" constant="46" id="pNK-2s-wZc"/>
+                            <constraint firstItem="7QI-J7-Ucm" firstAttribute="leading" secondItem="Gkl-sA-ryR" secondAttribute="leading" constant="20" id="pes-bE-vDY"/>
+                            <constraint firstItem="UpN-aZ-9Yx" firstAttribute="leading" secondItem="kNc-D2-ds0" secondAttribute="leading" id="tjH-9r-G31"/>
+                            <constraint firstItem="UpN-aZ-9Yx" firstAttribute="leading" secondItem="Gkl-sA-ryR" secondAttribute="leading" constant="81" id="w4n-6y-Ynp"/>
+                            <constraint firstItem="a9f-K4-jxV" firstAttribute="top" secondItem="oLp-j9-uVR" secondAttribute="bottom" constant="44" id="zfk-6z-YVE"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="always" id="EFW-l3-bdx"/>
@@ -395,7 +390,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="TESTO TUTORIALTESTO TUTORIALTESTO TUTORIALTESTO TUTORIALTESTO TUTORIALTESTO TUTORIALTESTO TUTORIALTESTO TUTORIAL" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kaE-79-HEN">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TESTO TUTORIALTESTO TUTORIALTESTO TUTORIALTESTO TUTORIALTESTO TUTORIALTESTO TUTORIALTESTO TUTORIALTESTO TUTORIAL" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kaE-79-HEN">
                                 <rect key="frame" x="9.6666666666666572" y="320" width="374" height="81.333333333333314"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="374" id="YdZ-o1-s5d"/>
@@ -424,6 +419,7 @@
                         <color key="backgroundColor" red="0.76123124360000005" green="0.89493829010000003" blue="0.83136588339999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="kaE-79-HEN" firstAttribute="centerX" secondItem="cKX-yh-Hun" secondAttribute="centerX" id="Uzl-sN-D9l"/>
+                            <constraint firstItem="kaE-79-HEN" firstAttribute="top" secondItem="oyZ-YZ-lnm" secondAttribute="top" constant="165" id="bXU-Za-uMD"/>
                             <constraint firstItem="llm-hk-Zeu" firstAttribute="bottom" secondItem="oyZ-YZ-lnm" secondAttribute="bottom" constant="-17" id="q7o-cf-v96"/>
                             <constraint firstItem="oyZ-YZ-lnm" firstAttribute="trailing" secondItem="llm-hk-Zeu" secondAttribute="trailing" constant="20" id="qYj-Aw-hwt"/>
                         </constraints>
@@ -446,230 +442,568 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Epn-E2-zSi">
-                                <rect key="frame" x="20" y="20" width="112" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="112" id="5pY-eL-0ki"/>
-                                    <constraint firstAttribute="height" constant="31" id="mmG-CP-Cfl"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Epn-E2-zSi">
+                                <rect key="frame" x="19.999999999999993" y="20.000000000000004" width="89.333333333333314" height="34.333333333333343"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Cancella"/>
                                 <connections>
                                     <action selector="cancellaTransazione:" destination="Be4-k4-0Hd" eventType="touchUpInside" id="c1R-rC-poe"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TextField-1" translatesAutoresizingMaskIntoConstraints="NO" id="IOZ-qS-LC2" userLabel="immagineNomeTransazione">
-                                <rect key="frame" x="47.666666666666657" y="79" width="298" height="110"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="298" id="ePl-0k-qp6"/>
-                                    <constraint firstAttribute="height" constant="110" id="oOS-Vz-1nq"/>
-                                </constraints>
-                            </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Nome Transazione" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SY2-dX-Oyv" userLabel="labelNomeTransazione">
-                                <rect key="frame" x="78" y="105" width="237" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="237" id="d2m-BR-d8i"/>
-                                    <constraint firstAttribute="height" constant="34" id="i2e-0X-s9U"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" textContentType="name"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o4O-cy-Zyn" userLabel="Aggiungi">
-                                <rect key="frame" x="261" y="20" width="112" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="112" id="jjw-hN-PPI"/>
-                                    <constraint firstAttribute="height" constant="31" id="jt5-KL-b7k"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o4O-cy-Zyn">
+                                <rect key="frame" x="310.33333333333331" y="20" width="62.666666666666686" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Aggiungi"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Fatto"/>
                                 <connections>
                                     <action selector="bottoneAggiungi:" destination="Be4-k4-0Hd" eventType="touchUpInside" id="6Co-xh-7eN"/>
                                     <action selector="cancellaTransazione:" destination="Be4-k4-0Hd" eventType="touchUpInside" id="t0k-WI-tS7"/>
                                 </connections>
                             </button>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="aOY-dz-hMw">
-                                <rect key="frame" x="105" y="220" width="183" height="32"/>
-                                <color key="backgroundColor" red="0.76123124360000005" green="0.89493829010000003" blue="0.83136588339999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <segments>
-                                    <segment title="Entrata"/>
-                                    <segment title="Uscita"/>
-                                </segments>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="selectedSegmentTintColor" systemColor="secondarySystemGroupedBackgroundColor"/>
-                                <connections>
-                                    <action selector="opzioneTransazione:" destination="Be4-k4-0Hd" eventType="valueChanged" id="9dg-Ra-Vk9"/>
-                                </connections>
-                            </segmentedControl>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IFg-1t-92k">
-                                <rect key="frame" x="0.0" y="269" width="393" height="405.5"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yjl-T3-UZA">
+                                <rect key="frame" x="0.0" y="56" width="398" height="786"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="gsN-Kp-ffQ">
-                                        <rect key="frame" x="20" y="20" width="100" height="365"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o7B-QC-xh9">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="1300"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stipendio" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4nX-E2-zbL" userLabel="labelEntrata1">
-                                                <rect key="frame" x="14" y="0.0" width="72.333333333333329" height="20.666666666666668"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Entrate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sd9-1W-5oA">
+                                                <rect key="frame" x="112" y="29.999999999999996" width="166.66666666666697" height="41.666666666666657"/>
+                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="32"/>
+                                                <color key="textColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gzK-Ht-or7" userLabel="entrata1">
-                                                <rect key="frame" x="25.666666666666664" y="32.666666666666686" width="50.999999999999993" height="31"/>
-                                            </switch>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pensione" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k73-Nd-tZP" userLabel="labelEntrata2">
-                                                <rect key="frame" x="15.333333333333336" y="75.666666666666686" width="69.666666666666657" height="20.333333333333329"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Uscite" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7l7-nk-4g1">
+                                                <rect key="frame" x="112" y="303" width="166.66666666666697" height="42"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="42" id="HLh-oO-c9E"/>
+                                                    <constraint firstAttribute="width" constant="166.66666666666697" id="smq-1P-9rn"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="32"/>
+                                                <color key="textColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DP3-o1-lfS" userLabel="entrata2">
-                                                <rect key="frame" x="25.666666666666664" y="108" width="50.999999999999993" height="31"/>
-                                            </switch>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Regalo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XUj-u7-0vr" userLabel="labelEntrata3">
-                                                <rect key="frame" x="24.000000000000004" y="151" width="52.333333333333343" height="20.333333333333343"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aqr-Bi-zsH" userLabel="entrata3">
-                                                <rect key="frame" x="25.666666666666664" y="183.33333333333331" width="50.999999999999993" height="31"/>
-                                            </switch>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rendita" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yuu-GW-MhH" userLabel="labelEntrata4">
-                                                <rect key="frame" x="21.333333333333339" y="226.33333333333331" width="57.666666666666657" height="20.333333333333343"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WqZ-4j-xXW" userLabel="entrata4">
-                                                <rect key="frame" x="25.666666666666664" y="258.66666666666663" width="50.999999999999993" height="31"/>
-                                            </switch>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Altro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgn-fR-3QJ" userLabel="labelEntrata5">
-                                                <rect key="frame" x="32" y="301.66666666666663" width="36.333333333333343" height="20.333333333333314"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0kJ-Fo-cLb" userLabel="entrata5">
-                                                <rect key="frame" x="25.666666666666664" y="334" width="50.999999999999993" height="31"/>
-                                            </switch>
+                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8a-wK-Q6H" userLabel="Housing">
+                                                <rect key="frame" x="53" y="366" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="60" id="Tai-H6-0Nb"/>
+                                                    <constraint firstAttribute="height" constant="60" id="gdM-Eh-AMV"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                                    <imageReference key="image" image="eurosign" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LEf-IW-i2r" userLabel="Transport">
+                                                <rect key="frame" x="165" y="366" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="60" id="Vzl-gE-bEb"/>
+                                                    <constraint firstAttribute="height" constant="60" id="rau-UA-GzD"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                                    <imageReference key="image" image="zzz" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qfh-Wg-PFI" userLabel="Food">
+                                                <rect key="frame" x="281" y="366" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="T7i-q2-uac"/>
+                                                    <constraint firstAttribute="width" constant="60" id="bRa-Ka-LDh"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                                    <imageReference key="image" image="chart.line.uptrend.xyaxis" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4SJ-0s-IrS" userLabel="Car">
+                                                <rect key="frame" x="53" y="470" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="60" id="36H-NW-Ooz"/>
+                                                    <constraint firstAttribute="height" constant="60" id="jIF-RD-RBw"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                                    <imageReference key="image" image="gift.fill" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RmJ-hB-jT3" userLabel="Utilities">
+                                                <rect key="frame" x="165" y="470" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="UTs-WS-fDN"/>
+                                                    <constraint firstAttribute="width" constant="60" id="q7Q-PI-yCB"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                                    <imageReference key="image" image="eurosign.circle.fill" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UDR-HU-5Q2" userLabel="Clothing">
+                                                <rect key="frame" x="281" y="470" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="60" id="bK7-w3-7ab"/>
+                                                    <constraint firstAttribute="height" constant="60" id="ova-AK-6ry"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" image="shuffle" catalog="system" cornerStyle="large">
+                                                    <attributedString key="attributedTitle"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="age-Ng-Jrw" userLabel="Medical">
+                                                <rect key="frame" x="53" y="568" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="GSH-aU-fHE"/>
+                                                    <constraint firstAttribute="width" constant="60" id="vfr-v0-kNs"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                                    <imageReference key="image" image="eurosign" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Fi-g2-Ay0" userLabel="Insurance">
+                                                <rect key="frame" x="165" y="568" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="Rt5-AE-i5D"/>
+                                                    <constraint firstAttribute="width" constant="60" id="yxK-6P-d4X"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                                    <imageReference key="image" image="zzz" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kex-qy-xjF" userLabel="Supplies">
+                                                <rect key="frame" x="281" y="568" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="60" id="QFC-R5-ZX7"/>
+                                                    <constraint firstAttribute="height" constant="60" id="RgY-Fd-yf4"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                                    <imageReference key="image" image="chart.line.uptrend.xyaxis" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WXa-LN-Egl" userLabel="Personal">
+                                                <rect key="frame" x="53" y="672" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="60" id="68X-Sg-qXB"/>
+                                                    <constraint firstAttribute="height" constant="60" id="9Qy-I2-0ii"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                                    <imageReference key="image" image="gift.fill" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hyt-Z2-GJ9" userLabel="Dept">
+                                                <rect key="frame" x="165" y="672" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="60" id="OHa-xb-Wir"/>
+                                                    <constraint firstAttribute="height" constant="60" id="qHA-8I-yc3"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                                    <imageReference key="image" image="eurosign.circle.fill" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s79-Dn-2PS" userLabel="Investments">
+                                                <rect key="frame" x="281" y="672" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="60" id="hEb-xz-QzG"/>
+                                                    <constraint firstAttribute="height" constant="60" id="zKd-6E-QZf"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" image="shuffle" catalog="system" cornerStyle="large">
+                                                    <attributedString key="attributedTitle"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gF4-cw-Wn8" userLabel="Education">
+                                                <rect key="frame" x="53" y="764" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="60" id="RvT-Uj-Mjb"/>
+                                                    <constraint firstAttribute="height" constant="60" id="cf4-cI-Ms4"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                                    <imageReference key="image" image="eurosign" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FRd-hg-Kuk" userLabel="Gifts/Donations">
+                                                <rect key="frame" x="165" y="764" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="8sy-Xx-8NR"/>
+                                                    <constraint firstAttribute="width" constant="60" id="YlV-lj-kCs"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                                    <imageReference key="image" image="zzz" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cec-ll-8uk" userLabel="Leisure">
+                                                <rect key="frame" x="281" y="764" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="Ivg-Gj-4xg"/>
+                                                    <constraint firstAttribute="width" constant="60" id="eVW-rg-a2u"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                                    <imageReference key="image" image="chart.line.uptrend.xyaxis" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7C-1S-hot" userLabel="Gifts">
+                                                <rect key="frame" x="53" y="868" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="60" id="MLM-QV-fe4"/>
+                                                    <constraint firstAttribute="height" constant="60" id="ma6-LY-iqy"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                                    <imageReference key="image" image="gift.fill" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FlN-uV-qla" userLabel="Reimbursments">
+                                                <rect key="frame" x="165" y="868" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="60" id="thx-V1-EFc"/>
+                                                    <constraint firstAttribute="height" constant="60" id="wBQ-Ck-SFa"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                                    <imageReference key="image" image="eurosign.circle.fill" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FDc-En-CxU" userLabel="Generic">
+                                                <rect key="frame" x="281" y="868" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="60" id="Lcb-f1-GrU"/>
+                                                    <constraint firstAttribute="height" constant="60" id="eQI-Zs-Dbd"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" image="shuffle" catalog="system" cornerStyle="large">
+                                                    <attributedString key="attributedTitle"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IiP-jV-dvh">
+                                                <rect key="frame" x="53" y="972" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="TEt-wu-bus"/>
+                                                    <constraint firstAttribute="width" constant="60" id="oWI-Np-KCz"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                                    <imageReference key="image" image="eurosign" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1HD-Fm-U2Q" userLabel="Passive">
+                                                <rect key="frame" x="165" y="972" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="KK0-jO-Ib6"/>
+                                                    <constraint firstAttribute="width" constant="60" id="MrN-v1-ui5"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                                    <imageReference key="image" image="zzz" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mJs-N7-r2Z" userLabel="Investments">
+                                                <rect key="frame" x="281" y="972" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="60" id="bTd-9o-f0X"/>
+                                                    <constraint firstAttribute="height" constant="60" id="zTg-jM-VIU"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                                    <imageReference key="image" image="chart.line.uptrend.xyaxis" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AYF-J8-nJF" userLabel="Gifts">
+                                                <rect key="frame" x="53" y="1076" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="60" id="HfW-22-lhc"/>
+                                                    <constraint firstAttribute="height" constant="60" id="N4D-ul-9lG"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                                    <imageReference key="image" image="gift.fill" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EsX-gf-ne8" userLabel="Reimbursments">
+                                                <rect key="frame" x="165" y="1076" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="BUB-g2-3uW"/>
+                                                    <constraint firstAttribute="width" constant="60" id="jyW-Vm-i3v"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                                    <imageReference key="image" image="eurosign.circle.fill" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N8F-gQ-U92" userLabel="Generic">
+                                                <rect key="frame" x="281" y="1076" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="60" id="K55-7h-AJN"/>
+                                                    <constraint firstAttribute="height" constant="60" id="saN-MN-Ouh"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" image="shuffle" catalog="system" cornerStyle="large">
+                                                    <attributedString key="attributedTitle"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TwM-yE-VvF">
+                                                <rect key="frame" x="51" y="90" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="60" id="3Qt-F2-y0G"/>
+                                                    <constraint firstAttribute="height" constant="60" id="ICv-vD-xox"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                                    <imageReference key="image" image="eurosign" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0zx-5H-10T" userLabel="Passive">
+                                                <rect key="frame" x="165" y="90" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="60" id="9aS-as-cYU"/>
+                                                    <constraint firstAttribute="height" constant="60" id="LFC-r1-dqI"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                                    <imageReference key="image" image="zzz" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yoY-7C-RTD" userLabel="Investments">
+                                                <rect key="frame" x="279" y="90" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="JZU-Xp-Lpi"/>
+                                                    <constraint firstAttribute="width" constant="60" id="sNj-zy-arE"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                                    <imageReference key="image" image="chart.line.uptrend.xyaxis" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iqk-0A-fLr" userLabel="Gifts">
+                                                <rect key="frame" x="51" y="194" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="60" id="17e-j7-FKm"/>
+                                                    <constraint firstAttribute="height" constant="60" id="i7T-b7-yQu"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                                    <imageReference key="image" image="gift.fill" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbx-u4-OpZ" userLabel="Reimbursments">
+                                                <rect key="frame" x="165" y="197" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="60" id="QQj-n6-Bey"/>
+                                                    <constraint firstAttribute="height" constant="60" id="Waw-Ji-ane"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" imagePadding="0.0" cornerStyle="large">
+                                                    <imageReference key="image" image="eurosign.circle.fill" catalog="system" symbolScale="large" variableValue="0.0"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vhX-LO-DKv" userLabel="Generic">
+                                                <rect key="frame" x="279" y="194" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="60" id="4Xg-NZ-7hr"/>
+                                                    <constraint firstAttribute="height" constant="60" id="OMV-lZ-iKy"/>
+                                                </constraints>
+                                                <color key="tintColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
+                                                <state key="normal" title="Wage" image="eurosign.circle.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="filled" image="shuffle" catalog="system" cornerStyle="large">
+                                                    <attributedString key="attributedTitle"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
                                         </subviews>
+                                        <color key="backgroundColor" red="0.76123124360000005" green="0.89493829010000003" blue="0.83136588339999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="365" id="Vbt-qq-GDv"/>
-                                            <constraint firstAttribute="width" constant="100" id="sdd-22-919"/>
+                                            <constraint firstItem="vhX-LO-DKv" firstAttribute="top" secondItem="yoY-7C-RTD" secondAttribute="bottom" constant="44" id="01X-pu-1m1"/>
+                                            <constraint firstItem="FlN-uV-qla" firstAttribute="centerX" secondItem="o7B-QC-xh9" secondAttribute="centerX" id="05B-ZM-0QL"/>
+                                            <constraint firstItem="RmJ-hB-jT3" firstAttribute="centerX" secondItem="o7B-QC-xh9" secondAttribute="centerX" id="13g-1J-JWd"/>
+                                            <constraint firstItem="Iqk-0A-fLr" firstAttribute="leading" secondItem="o7B-QC-xh9" secondAttribute="leading" constant="51" id="20z-Gr-f4n"/>
+                                            <constraint firstItem="TwM-yE-VvF" firstAttribute="top" secondItem="o7B-QC-xh9" secondAttribute="top" constant="90" id="9lW-uz-TAz"/>
+                                            <constraint firstItem="FRd-hg-Kuk" firstAttribute="centerX" secondItem="o7B-QC-xh9" secondAttribute="centerX" id="D76-nm-vzd"/>
+                                            <constraint firstItem="EsX-gf-ne8" firstAttribute="centerX" secondItem="o7B-QC-xh9" secondAttribute="centerX" id="ESD-Ob-MEB"/>
+                                            <constraint firstItem="0zx-5H-10T" firstAttribute="top" secondItem="o7B-QC-xh9" secondAttribute="top" constant="90" id="HHF-Ub-X5C"/>
+                                            <constraint firstItem="LEf-IW-i2r" firstAttribute="centerX" secondItem="o7B-QC-xh9" secondAttribute="centerX" id="MB3-dO-xSK"/>
+                                            <constraint firstItem="TwM-yE-VvF" firstAttribute="leading" secondItem="o7B-QC-xh9" secondAttribute="leading" constant="51" id="Met-5S-Wp5"/>
+                                            <constraint firstItem="0zx-5H-10T" firstAttribute="centerX" secondItem="o7B-QC-xh9" secondAttribute="centerX" id="R4L-jj-ZTq"/>
+                                            <constraint firstItem="6Fi-g2-Ay0" firstAttribute="centerX" secondItem="o7B-QC-xh9" secondAttribute="centerX" id="TB4-U8-h5t"/>
+                                            <constraint firstItem="gbx-u4-OpZ" firstAttribute="centerX" secondItem="o7B-QC-xh9" secondAttribute="centerX" id="TVu-QE-S35"/>
+                                            <constraint firstItem="1HD-Fm-U2Q" firstAttribute="centerX" secondItem="o7B-QC-xh9" secondAttribute="centerX" id="UpA-PV-waw"/>
+                                            <constraint firstItem="Iqk-0A-fLr" firstAttribute="top" secondItem="TwM-yE-VvF" secondAttribute="bottom" constant="44" id="Zff-un-v3P"/>
+                                            <constraint firstAttribute="trailing" secondItem="vhX-LO-DKv" secondAttribute="trailing" constant="51" id="ab3-nB-eMs"/>
+                                            <constraint firstAttribute="trailing" secondItem="yoY-7C-RTD" secondAttribute="trailing" constant="51" id="amI-KQ-Z0k"/>
+                                            <constraint firstItem="Hyt-Z2-GJ9" firstAttribute="centerX" secondItem="o7B-QC-xh9" secondAttribute="centerX" id="fBe-fv-H8I"/>
+                                            <constraint firstItem="yoY-7C-RTD" firstAttribute="top" secondItem="o7B-QC-xh9" secondAttribute="top" constant="90" id="mI7-eR-RX1"/>
+                                            <constraint firstAttribute="height" constant="1300" id="rOQ-6c-EIo"/>
+                                            <constraint firstItem="gbx-u4-OpZ" firstAttribute="top" secondItem="0zx-5H-10T" secondAttribute="bottom" constant="47" id="sgx-Ca-ThH"/>
+                                            <constraint firstItem="Sd9-1W-5oA" firstAttribute="top" secondItem="o7B-QC-xh9" secondAttribute="top" constant="30" id="udX-qS-D12"/>
                                         </constraints>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="tUc-Ny-ocy">
-                                        <rect key="frame" x="294" y="20" width="100" height="365.66666666666669"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Salute" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DCf-zV-5EJ" userLabel="labelUscita1">
-                                                <rect key="frame" x="26.333333333333332" y="0.0" width="47.666666666666671" height="21.333333333333332"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eVi-GL-08f" userLabel="uscita1">
-                                                <rect key="frame" x="25.666666666666671" y="33.333333333333314" width="51" height="31"/>
-                                            </switch>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Casa" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5b6-oZ-W6V" userLabel="labelUscita2">
-                                                <rect key="frame" x="31.000000000000004" y="76.333333333333314" width="38.333333333333343" height="20.333333333333329"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2tp-og-dGM" userLabel="uscita2">
-                                                <rect key="frame" x="25.666666666666671" y="108.66666666666669" width="51" height="31"/>
-                                            </switch>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Auto" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0qk-Qw-gZf" userLabel="labelUscita3">
-                                                <rect key="frame" x="32.333333333333329" y="151.66666666666669" width="35.333333333333329" height="20.333333333333343"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4M3-bg-zz0" userLabel="uscita3">
-                                                <rect key="frame" x="25.666666666666671" y="184" width="51" height="31"/>
-                                            </switch>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Spesa" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egz-AH-vAc" userLabel="labelUscita4">
-                                                <rect key="frame" x="26.333333333333332" y="227" width="47.333333333333343" height="20.333333333333343"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9lH-EG-b2v" userLabel="uscita4">
-                                                <rect key="frame" x="25.666666666666671" y="259.33333333333337" width="51" height="31"/>
-                                            </switch>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Altro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BUl-Wg-TfL" userLabel="labelUscita5">
-                                                <rect key="frame" x="32" y="302.33333333333337" width="36.333333333333343" height="20.333333333333314"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TgF-Cu-tUn" userLabel="uscita5">
-                                                <rect key="frame" x="25.666666666666671" y="334.66666666666663" width="51" height="31"/>
-                                            </switch>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="100" id="276-Ld-C8a"/>
-                                            <constraint firstAttribute="height" constant="365.5" id="66R-db-dJH"/>
-                                        </constraints>
-                                    </stackView>
+                                    </view>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstItem="gsN-Kp-ffQ" firstAttribute="leading" secondItem="IFg-1t-92k" secondAttribute="leading" constant="20" id="PFR-8k-D4U"/>
+                                    <constraint firstAttribute="bottom" secondItem="o7B-QC-xh9" secondAttribute="bottom" id="1PW-6e-n7s"/>
+                                    <constraint firstItem="o7B-QC-xh9" firstAttribute="top" secondItem="Yjl-T3-UZA" secondAttribute="top" id="nkK-fC-oPo"/>
+                                    <constraint firstAttribute="trailing" secondItem="o7B-QC-xh9" secondAttribute="trailing" id="o8j-ZX-FZp"/>
+                                    <constraint firstItem="o7B-QC-xh9" firstAttribute="leading" secondItem="Yjl-T3-UZA" secondAttribute="leading" id="rNH-hN-zHK"/>
                                 </constraints>
-                            </view>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xcc-yq-THp" userLabel="cifraTransazione">
-                                <rect key="frame" x="159" y="726" width="97" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                            </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="c0H-EL-lPq"/>
                         <color key="backgroundColor" red="0.81176470588235294" green="0.94901961089999998" blue="0.94901961089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="IFg-1t-92k" firstAttribute="top" secondItem="aOY-dz-hMw" secondAttribute="bottom" constant="18" id="1Y9-Ze-fxL"/>
-                            <constraint firstItem="Xcc-yq-THp" firstAttribute="top" secondItem="IFg-1t-92k" secondAttribute="bottom" constant="51.5" id="3kl-99-g6r"/>
-                            <constraint firstItem="IFg-1t-92k" firstAttribute="leading" secondItem="c0H-EL-lPq" secondAttribute="leading" id="5OU-pX-Lte"/>
-                            <constraint firstItem="c0H-EL-lPq" firstAttribute="trailing" secondItem="aOY-dz-hMw" secondAttribute="trailing" constant="105" id="Chg-lk-aMF"/>
-                            <constraint firstItem="IOZ-qS-LC2" firstAttribute="top" secondItem="Epn-E2-zSi" secondAttribute="bottom" constant="28" id="D8l-gK-r8t"/>
-                            <constraint firstItem="o4O-cy-Zyn" firstAttribute="top" secondItem="c0H-EL-lPq" secondAttribute="top" constant="20" id="EoM-GC-1Mn"/>
-                            <constraint firstItem="c0H-EL-lPq" firstAttribute="trailing" secondItem="o4O-cy-Zyn" secondAttribute="trailing" constant="20" id="Iuh-Jc-FE2"/>
-                            <constraint firstItem="IOZ-qS-LC2" firstAttribute="centerX" secondItem="geC-dc-kbn" secondAttribute="centerX" id="SM0-GO-9qm"/>
-                            <constraint firstItem="aOY-dz-hMw" firstAttribute="leading" secondItem="c0H-EL-lPq" secondAttribute="leading" constant="105" id="Zrl-pK-nrC"/>
-                            <constraint firstItem="aOY-dz-hMw" firstAttribute="top" secondItem="IOZ-qS-LC2" secondAttribute="bottom" constant="31" id="acs-59-EXc"/>
-                            <constraint firstItem="IFg-1t-92k" firstAttribute="trailing" secondItem="c0H-EL-lPq" secondAttribute="trailing" id="btg-CN-FL3"/>
-                            <constraint firstItem="SY2-dX-Oyv" firstAttribute="top" secondItem="Epn-E2-zSi" secondAttribute="bottom" constant="54" id="eOj-aF-MJt"/>
-                            <constraint firstItem="Epn-E2-zSi" firstAttribute="top" secondItem="c0H-EL-lPq" secondAttribute="top" constant="20" id="fUv-l9-Dft"/>
-                            <constraint firstItem="Epn-E2-zSi" firstAttribute="leading" secondItem="c0H-EL-lPq" secondAttribute="leading" constant="20" id="kNO-Lz-lEW"/>
-                            <constraint firstItem="SY2-dX-Oyv" firstAttribute="centerX" secondItem="geC-dc-kbn" secondAttribute="centerX" id="nxf-rM-Smf"/>
+                            <constraint firstItem="o7B-QC-xh9" firstAttribute="width" secondItem="geC-dc-kbn" secondAttribute="width" multiplier="0.992366" id="sUf-89-dhU"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="labelAltroEntrata" destination="fgn-fR-3QJ" id="pZ7-AF-Ddz"/>
-                        <outlet property="labelAltroUscita" destination="BUl-Wg-TfL" id="G0u-U6-Gh3"/>
-                        <outlet property="labelAuto" destination="0qk-Qw-gZf" id="03E-Pl-KBS"/>
-                        <outlet property="labelCasa" destination="5b6-oZ-W6V" id="e2z-cm-CbD"/>
-                        <outlet property="labelPensione" destination="k73-Nd-tZP" id="55y-cd-Ac5"/>
-                        <outlet property="labelRegalo" destination="XUj-u7-0vr" id="wYR-gq-ECP"/>
-                        <outlet property="labelRendita" destination="yuu-GW-MhH" id="ItE-pn-lF6"/>
-                        <outlet property="labelSalute" destination="DCf-zV-5EJ" id="B9m-zP-WHU"/>
-                        <outlet property="labelSpesa" destination="egz-AH-vAc" id="WA9-vy-ZYX"/>
-                        <outlet property="labelStipendio" destination="4nX-E2-zbL" id="Bgp-BA-Uy7"/>
-                        <outlet property="nomeTransazione" destination="SY2-dX-Oyv" id="zaA-bG-JWi"/>
-                        <outlet property="switchAltro" destination="TgF-Cu-tUn" id="kSy-Bb-k0U"/>
-                        <outlet property="switchAltroEntrata" destination="0kJ-Fo-cLb" id="BbW-Mp-gtf"/>
-                        <outlet property="switchAuto" destination="4M3-bg-zz0" id="8AI-ss-jIg"/>
-                        <outlet property="switchCasa" destination="4M3-bg-zz0" id="Ir8-Ah-Fq5"/>
-                        <outlet property="switchPensione" destination="DP3-o1-lfS" id="oOY-gv-72h"/>
-                        <outlet property="switchRegalo" destination="aqr-Bi-zsH" id="0W7-GM-uRP"/>
-                        <outlet property="switchRendita" destination="WqZ-4j-xXW" id="2b4-w9-jrc"/>
-                        <outlet property="switchSalute" destination="eVi-GL-08f" id="xhC-e1-Mch"/>
-                        <outlet property="switchSpesa" destination="9lH-EG-b2v" id="4dS-3U-C4O"/>
-                        <outlet property="switchStipendio" destination="gzK-Ht-or7" id="5KX-0Q-kHi"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DYb-zM-h8o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3956.521739130435" y="2326.3392857142858"/>
+            <point key="canvasLocation" x="3956.4885496183206" y="2326.0563380281692"/>
         </scene>
         <!--viewProfilo-->
         <scene sceneID="iHk-QH-IMK">
@@ -679,90 +1013,66 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="TextField-1" translatesAutoresizingMaskIntoConstraints="NO" id="NyK-l6-BW5" userLabel="immagineNome">
-                                <rect key="frame" x="69" y="187" width="280" height="110"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TextField-1" translatesAutoresizingMaskIntoConstraints="NO" id="NyK-l6-BW5" userLabel="immagineNome">
+                                <rect key="frame" x="61" y="212" width="271" height="53"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="280" id="hTc-b5-eHu"/>
-                                    <constraint firstAttribute="width" secondItem="NyK-l6-BW5" secondAttribute="height" multiplier="28:11" id="nyz-Cx-Qka"/>
-                                    <constraint firstAttribute="height" constant="110" id="qOJ-UR-Zen"/>
+                                    <constraint firstAttribute="width" secondItem="NyK-l6-BW5" secondAttribute="height" multiplier="271:53" id="CkA-kA-ZP8"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Nome" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k2p-zL-WHC" userLabel="labelNome">
-                                <rect key="frame" x="95" y="213" width="219" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Nome" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k2p-zL-WHC" userLabel="labelNome">
+                                <rect key="frame" x="73" y="221" width="247" height="34"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="2vJ-Mm-623"/>
-                                    <constraint firstAttribute="width" constant="219" id="Au7-TX-FB1"/>
-                                    <constraint firstAttribute="width" secondItem="k2p-zL-WHC" secondAttribute="height" multiplier="219:34" id="bV8-Yr-AT2"/>
+                                    <constraint firstAttribute="width" secondItem="k2p-zL-WHC" secondAttribute="height" multiplier="247:34" id="jGP-Sy-3Dc"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" textContentType="name"/>
                             </textField>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="TextField-1" translatesAutoresizingMaskIntoConstraints="NO" id="W9h-yY-tGm" userLabel="ImmagineCognome">
-                                <rect key="frame" x="69" y="255" width="280" height="110"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TextField-1" translatesAutoresizingMaskIntoConstraints="NO" id="W9h-yY-tGm" userLabel="ImmagineCognome">
+                                <rect key="frame" x="61" y="273" width="271" height="51"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="280" id="0xC-db-PPN"/>
-                                    <constraint firstAttribute="height" constant="110" id="4IK-mj-Kyz"/>
-                                    <constraint firstAttribute="width" secondItem="W9h-yY-tGm" secondAttribute="height" multiplier="28:11" id="8U2-z1-t31"/>
+                                    <constraint firstAttribute="width" secondItem="W9h-yY-tGm" secondAttribute="height" multiplier="271:51" id="54Q-n4-h5c"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Surname" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MWO-JN-dUg" userLabel="labelCognome">
-                                <rect key="frame" x="95" y="282" width="219" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Surname" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MWO-JN-dUg" userLabel="labelCognome">
+                                <rect key="frame" x="73" y="281" width="247" height="34"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="I6f-vq-5CP"/>
-                                    <constraint firstAttribute="width" constant="219" id="g9N-Z6-SJ7"/>
-                                    <constraint firstAttribute="width" secondItem="MWO-JN-dUg" secondAttribute="height" multiplier="219:34" id="kCM-iO-CYO"/>
+                                    <constraint firstAttribute="width" secondItem="MWO-JN-dUg" secondAttribute="height" multiplier="247:34" id="4ik-Lg-QnQ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" textContentType="family-name"/>
                             </textField>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="TextField-1" translatesAutoresizingMaskIntoConstraints="NO" id="aki-bp-i1I" userLabel="ImmagineCognome">
-                                <rect key="frame" x="69" y="332" width="280" height="110"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TextField-1" translatesAutoresizingMaskIntoConstraints="NO" id="aki-bp-i1I" userLabel="ImmagineEmail">
+                                <rect key="frame" x="61" y="332" width="271" height="53"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="110" id="4O9-zN-fFg"/>
-                                    <constraint firstAttribute="width" secondItem="aki-bp-i1I" secondAttribute="height" multiplier="28:11" id="5Mh-aO-rhC"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="280" id="SVg-f4-IOX"/>
-                                    <constraint firstAttribute="width" secondItem="aki-bp-i1I" secondAttribute="height" multiplier="28:11" id="YWb-Of-aOL"/>
-                                    <constraint firstAttribute="width" constant="280" id="kmv-tV-Tzl"/>
-                                    <constraint firstAttribute="height" constant="110" id="xUz-M4-Cqe"/>
+                                    <constraint firstAttribute="width" secondItem="aki-bp-i1I" secondAttribute="height" multiplier="271:53" id="cbO-4L-QKI"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CAQ-xh-MvX" userLabel="labelEmail">
-                                <rect key="frame" x="95" y="358" width="219" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CAQ-xh-MvX" userLabel="labelEmail">
+                                <rect key="frame" x="73" y="341" width="247" height="34"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="SZX-yA-h6b"/>
-                                    <constraint firstAttribute="width" secondItem="CAQ-xh-MvX" secondAttribute="height" multiplier="219:34" id="YcV-4r-n1F"/>
-                                    <constraint firstAttribute="width" constant="219" id="n2i-Mk-98H"/>
+                                    <constraint firstAttribute="width" secondItem="CAQ-xh-MvX" secondAttribute="height" multiplier="247:34" id="ref-v1-tDx"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" textContentType="email"/>
                             </textField>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="TextField-1" translatesAutoresizingMaskIntoConstraints="NO" id="3w1-tG-6HP" userLabel="ImmagineCognome">
-                                <rect key="frame" x="69" y="400" width="280" height="110"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TextField-1" translatesAutoresizingMaskIntoConstraints="NO" id="3w1-tG-6HP" userLabel="ImmaginePassword">
+                                <rect key="frame" x="61" y="393" width="271" height="54"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="280" id="9vS-s8-32R"/>
-                                    <constraint firstAttribute="width" secondItem="3w1-tG-6HP" secondAttribute="height" multiplier="28:11" id="GMO-aB-ieu"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="110" id="MHY-VI-fWm"/>
-                                    <constraint firstAttribute="height" constant="110" id="fIP-Eq-7Sk"/>
-                                    <constraint firstAttribute="width" secondItem="3w1-tG-6HP" secondAttribute="height" multiplier="28:11" id="ld5-7l-UlV"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="280" id="z50-e3-81j"/>
+                                    <constraint firstAttribute="width" secondItem="3w1-tG-6HP" secondAttribute="height" multiplier="271:54" id="ot6-Bt-Xj8"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9Yp-ec-ghw" userLabel="labelPassword">
-                                <rect key="frame" x="95" y="425" width="219" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9Yp-ec-ghw" userLabel="labelPassword">
+                                <rect key="frame" x="73" y="403" width="247" height="34"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="8Jc-p1-IvT"/>
-                                    <constraint firstAttribute="width" secondItem="9Yp-ec-ghw" secondAttribute="height" multiplier="219:34" id="BL3-GL-nYK"/>
-                                    <constraint firstAttribute="width" constant="219" id="cbb-eX-ZkX"/>
+                                    <constraint firstAttribute="width" secondItem="9Yp-ec-ghw" secondAttribute="height" multiplier="247:34" id="Yng-Fk-Ja2"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" secureTextEntry="YES" textContentType="password"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GGh-1l-630" userLabel="registratiButton">
-                                <rect key="frame" x="107" y="541" width="203.33333333333337" height="68.666666666666629"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GGh-1l-630" userLabel="registratiButton">
+                                <rect key="frame" x="128.33333333333331" y="486.00000000000006" width="136.33333333333331" height="54.666666666666686"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="203" id="0Fo-ox-19M"/>
-                                    <constraint firstAttribute="height" constant="68.5" id="i95-u5-Kzr"/>
-                                    <constraint firstAttribute="width" secondItem="GGh-1l-630" secondAttribute="height" multiplier="203:68" constant="-1.6568627450978965" id="sEz-t8-wd8"/>
+                                    <constraint firstAttribute="width" secondItem="GGh-1l-630" secondAttribute="height" multiplier="172:69" id="ujv-mc-gzX"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Modifica" cornerStyle="capsule">
@@ -775,13 +1085,10 @@
                                     <action selector="bottoneModifica:" destination="Wq7-3u-Zl1" eventType="touchUpInside" id="zXi-RL-PGD"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oSa-i1-QNl" userLabel="erroreLabel">
-                                <rect key="frame" x="60" y="633" width="298" height="33"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oSa-i1-QNl" userLabel="erroreLabel">
+                                <rect key="frame" x="61" y="589" width="271" height="33"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="33" id="Bpg-Hc-Q13"/>
-                                    <constraint firstAttribute="width" constant="298" id="Br4-I1-oHJ"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="298" id="eGY-Tl-lon"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="33" id="eHQ-uf-lGe"/>
+                                    <constraint firstAttribute="width" secondItem="oSa-i1-QNl" secondAttribute="height" multiplier="271:33" id="W8o-fI-lk4"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="13"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -791,30 +1098,46 @@
                         <viewLayoutGuide key="safeArea" id="Mjq-LO-39t"/>
                         <color key="backgroundColor" red="0.76123124360000005" green="0.89493829010000003" blue="0.83136588339999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="Mjq-LO-39t" firstAttribute="trailing" secondItem="k2p-zL-WHC" secondAttribute="trailing" constant="100" id="1aM-Ta-ilT"/>
-                            <constraint firstItem="W9h-yY-tGm" firstAttribute="centerX" secondItem="1Sh-Te-kNz" secondAttribute="centerX" constant="12.5" id="2Xi-SF-Goy"/>
-                            <constraint firstItem="NyK-l6-BW5" firstAttribute="centerX" secondItem="1Sh-Te-kNz" secondAttribute="centerX" constant="12.5" id="A5X-Ig-tS0"/>
-                            <constraint firstItem="Mjq-LO-39t" firstAttribute="trailing" secondItem="CAQ-xh-MvX" secondAttribute="trailing" constant="100" id="Chb-N6-5Ym"/>
-                            <constraint firstItem="MWO-JN-dUg" firstAttribute="leading" secondItem="Mjq-LO-39t" secondAttribute="leading" constant="95" id="Ge7-aO-rK6"/>
-                            <constraint firstItem="3w1-tG-6HP" firstAttribute="leading" secondItem="Mjq-LO-39t" secondAttribute="leading" constant="69" id="Ir5-2o-JIO"/>
-                            <constraint firstItem="3w1-tG-6HP" firstAttribute="centerX" secondItem="1Sh-Te-kNz" secondAttribute="centerX" constant="12.5" id="KYX-lH-vHY"/>
-                            <constraint firstItem="Mjq-LO-39t" firstAttribute="trailing" secondItem="3w1-tG-6HP" secondAttribute="trailing" constant="65" id="QaL-1T-eWX"/>
-                            <constraint firstItem="oSa-i1-QNl" firstAttribute="centerX" secondItem="1Sh-Te-kNz" secondAttribute="centerX" constant="12.5" id="RCt-gz-JkA"/>
-                            <constraint firstItem="aki-bp-i1I" firstAttribute="width" secondItem="aki-bp-i1I" secondAttribute="height" multiplier="28:11" id="SEY-AP-AKc"/>
-                            <constraint firstItem="CAQ-xh-MvX" firstAttribute="leading" secondItem="Mjq-LO-39t" secondAttribute="leading" constant="95" id="T8K-2W-Ycl"/>
-                            <constraint firstItem="Mjq-LO-39t" firstAttribute="trailing" secondItem="NyK-l6-BW5" secondAttribute="trailing" constant="65" id="UiJ-4R-c05"/>
-                            <constraint firstItem="aki-bp-i1I" firstAttribute="centerX" secondItem="1Sh-Te-kNz" secondAttribute="centerX" constant="12.5" id="XL8-dy-qI7"/>
-                            <constraint firstItem="aki-bp-i1I" firstAttribute="leading" secondItem="Mjq-LO-39t" secondAttribute="leading" constant="69" id="bdW-vo-FJm"/>
-                            <constraint firstItem="NyK-l6-BW5" firstAttribute="leading" secondItem="Mjq-LO-39t" secondAttribute="leading" constant="69" id="fLR-oH-COx"/>
-                            <constraint firstItem="Mjq-LO-39t" firstAttribute="trailing" secondItem="W9h-yY-tGm" secondAttribute="trailing" constant="65" id="fQV-G4-1hQ"/>
-                            <constraint firstItem="W9h-yY-tGm" firstAttribute="leading" secondItem="Mjq-LO-39t" secondAttribute="leading" constant="69" id="h9M-HV-Ziq"/>
-                            <constraint firstItem="GGh-1l-630" firstAttribute="width" secondItem="GGh-1l-630" secondAttribute="height" multiplier="101:34" id="jaj-ML-Qj9"/>
-                            <constraint firstItem="9Yp-ec-ghw" firstAttribute="leading" secondItem="Mjq-LO-39t" secondAttribute="leading" constant="95" id="kh3-pe-iju"/>
-                            <constraint firstItem="Mjq-LO-39t" firstAttribute="trailing" secondItem="MWO-JN-dUg" secondAttribute="trailing" constant="100" id="mCS-4g-KZB"/>
-                            <constraint firstItem="GGh-1l-630" firstAttribute="centerX" secondItem="1Sh-Te-kNz" secondAttribute="centerX" constant="12.166666666666686" id="n1s-DF-ck9"/>
-                            <constraint firstItem="k2p-zL-WHC" firstAttribute="leading" secondItem="Mjq-LO-39t" secondAttribute="leading" constant="95" id="p7X-if-mon"/>
-                            <constraint firstItem="Mjq-LO-39t" firstAttribute="trailing" secondItem="9Yp-ec-ghw" secondAttribute="trailing" constant="100" id="phL-tz-TJ6"/>
-                            <constraint firstItem="3w1-tG-6HP" firstAttribute="width" secondItem="3w1-tG-6HP" secondAttribute="height" multiplier="28:11" id="raZ-J1-9kM"/>
+                            <constraint firstItem="MWO-JN-dUg" firstAttribute="centerX" secondItem="1Sh-Te-kNz" secondAttribute="centerX" id="0Uj-Sh-49A"/>
+                            <constraint firstItem="9Yp-ec-ghw" firstAttribute="top" secondItem="CAQ-xh-MvX" secondAttribute="bottom" constant="28" id="1yr-rc-Mdj"/>
+                            <constraint firstItem="Mjq-LO-39t" firstAttribute="trailing" secondItem="k2p-zL-WHC" secondAttribute="trailing" constant="73" id="57r-st-GYB"/>
+                            <constraint firstItem="W9h-yY-tGm" firstAttribute="centerX" secondItem="1Sh-Te-kNz" secondAttribute="centerX" id="588-0e-liJ"/>
+                            <constraint firstItem="CAQ-xh-MvX" firstAttribute="leading" secondItem="Mjq-LO-39t" secondAttribute="leading" constant="73" id="5Hm-q4-YT8"/>
+                            <constraint firstItem="Mjq-LO-39t" firstAttribute="trailing" secondItem="3w1-tG-6HP" secondAttribute="trailing" constant="61" id="6kn-np-eUl"/>
+                            <constraint firstItem="GGh-1l-630" firstAttribute="top" secondItem="3w1-tG-6HP" secondAttribute="bottom" constant="39" id="BsG-Ec-nDp"/>
+                            <constraint firstItem="Mjq-LO-39t" firstAttribute="trailing" secondItem="MWO-JN-dUg" secondAttribute="trailing" constant="73" id="CDP-o5-wja"/>
+                            <constraint firstItem="Mjq-LO-39t" firstAttribute="trailing" secondItem="aki-bp-i1I" secondAttribute="trailing" constant="61" id="D1q-c3-YGT"/>
+                            <constraint firstItem="W9h-yY-tGm" firstAttribute="top" secondItem="NyK-l6-BW5" secondAttribute="bottom" constant="8" id="FqT-r3-dBH"/>
+                            <constraint firstItem="MWO-JN-dUg" firstAttribute="leading" secondItem="Mjq-LO-39t" secondAttribute="leading" constant="73" id="GAX-ED-PPC"/>
+                            <constraint firstItem="CAQ-xh-MvX" firstAttribute="top" secondItem="MWO-JN-dUg" secondAttribute="bottom" constant="26" id="Hpb-ob-12q"/>
+                            <constraint firstItem="aki-bp-i1I" firstAttribute="centerX" secondItem="1Sh-Te-kNz" secondAttribute="centerX" id="JTf-pY-DB2"/>
+                            <constraint firstItem="oSa-i1-QNl" firstAttribute="centerX" secondItem="1Sh-Te-kNz" secondAttribute="centerX" id="JfH-Tx-EN8"/>
+                            <constraint firstItem="NyK-l6-BW5" firstAttribute="leading" secondItem="Mjq-LO-39t" secondAttribute="leading" constant="61" id="KJy-Sv-S8C"/>
+                            <constraint firstItem="GGh-1l-630" firstAttribute="leading" secondItem="Mjq-LO-39t" secondAttribute="leading" constant="128.33000000000001" id="LKH-qq-2YU"/>
+                            <constraint firstItem="3w1-tG-6HP" firstAttribute="leading" secondItem="Mjq-LO-39t" secondAttribute="leading" constant="61" id="LbV-ht-w8I"/>
+                            <constraint firstItem="k2p-zL-WHC" firstAttribute="centerX" secondItem="1Sh-Te-kNz" secondAttribute="centerX" id="OnM-ZX-I35"/>
+                            <constraint firstItem="aki-bp-i1I" firstAttribute="leading" secondItem="Mjq-LO-39t" secondAttribute="leading" constant="61" id="P7y-Mx-bTZ"/>
+                            <constraint firstItem="Mjq-LO-39t" firstAttribute="trailing" secondItem="NyK-l6-BW5" secondAttribute="trailing" constant="61" id="UWf-GL-0mF"/>
+                            <constraint firstItem="GGh-1l-630" firstAttribute="centerX" secondItem="1Sh-Te-kNz" secondAttribute="centerX" id="Wv8-eA-arS"/>
+                            <constraint firstItem="Mjq-LO-39t" firstAttribute="trailing" secondItem="W9h-yY-tGm" secondAttribute="trailing" constant="61" id="Xaa-IH-wYT"/>
+                            <constraint firstItem="NyK-l6-BW5" firstAttribute="top" secondItem="Mjq-LO-39t" secondAttribute="top" constant="57" id="XeX-eO-aMO"/>
+                            <constraint firstItem="oSa-i1-QNl" firstAttribute="leading" secondItem="Mjq-LO-39t" secondAttribute="leading" constant="61" id="arc-0x-U45"/>
+                            <constraint firstItem="Mjq-LO-39t" firstAttribute="trailing" secondItem="GGh-1l-630" secondAttribute="trailing" constant="128.33000000000001" id="bmU-bb-LeE"/>
+                            <constraint firstItem="W9h-yY-tGm" firstAttribute="leading" secondItem="Mjq-LO-39t" secondAttribute="leading" constant="61" id="boe-qo-6dn"/>
+                            <constraint firstItem="k2p-zL-WHC" firstAttribute="leading" secondItem="Mjq-LO-39t" secondAttribute="leading" constant="73" id="g4u-0b-yIx"/>
+                            <constraint firstItem="CAQ-xh-MvX" firstAttribute="centerX" secondItem="1Sh-Te-kNz" secondAttribute="centerX" id="i1P-mx-7E4"/>
+                            <constraint firstItem="Mjq-LO-39t" firstAttribute="trailing" secondItem="CAQ-xh-MvX" secondAttribute="trailing" constant="73" id="iWy-5n-qUI"/>
+                            <constraint firstItem="oSa-i1-QNl" firstAttribute="top" secondItem="GGh-1l-630" secondAttribute="bottom" constant="48.329999999999998" id="lOr-cK-WBa"/>
+                            <constraint firstItem="Mjq-LO-39t" firstAttribute="trailing" secondItem="oSa-i1-QNl" secondAttribute="trailing" constant="61" id="mmC-jS-jHf"/>
+                            <constraint firstItem="3w1-tG-6HP" firstAttribute="top" secondItem="aki-bp-i1I" secondAttribute="bottom" constant="8" id="nfp-E7-VY0"/>
+                            <constraint firstItem="NyK-l6-BW5" firstAttribute="centerX" secondItem="1Sh-Te-kNz" secondAttribute="centerX" id="nnr-YX-gnh"/>
+                            <constraint firstItem="9Yp-ec-ghw" firstAttribute="centerX" secondItem="1Sh-Te-kNz" secondAttribute="centerX" id="py1-c3-ra5"/>
+                            <constraint firstItem="3w1-tG-6HP" firstAttribute="centerX" secondItem="1Sh-Te-kNz" secondAttribute="centerX" id="qQa-Xb-Lad"/>
+                            <constraint firstItem="Mjq-LO-39t" firstAttribute="trailing" secondItem="9Yp-ec-ghw" secondAttribute="trailing" constant="73" id="qjq-0h-s9a"/>
+                            <constraint firstItem="aki-bp-i1I" firstAttribute="top" secondItem="W9h-yY-tGm" secondAttribute="bottom" constant="8" symbolic="YES" id="rCd-RM-2lz"/>
+                            <constraint firstItem="k2p-zL-WHC" firstAttribute="top" secondItem="Mjq-LO-39t" secondAttribute="top" constant="66" id="uRO-VI-BLg"/>
+                            <constraint firstItem="9Yp-ec-ghw" firstAttribute="leading" secondItem="Mjq-LO-39t" secondAttribute="leading" constant="73" id="w4x-hC-Oe5"/>
+                            <constraint firstItem="MWO-JN-dUg" firstAttribute="top" secondItem="k2p-zL-WHC" secondAttribute="bottom" constant="26" id="wFg-4i-u6l"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Profilo" largeTitleDisplayMode="always" id="gkm-Ea-jI2"/>
@@ -829,7 +1152,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FKO-Og-479" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3242.0289855072465" y="1614.5089285714284"/>
+            <point key="canvasLocation" x="3241.9847328244273" y="1614.0845070422536"/>
         </scene>
         <!--viewStatistiche-->
         <scene sceneID="ZG7-HQ-mhR">
@@ -957,7 +1280,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dog-LE-cP3" customClass="Benve">
-                                <rect key="frame" x="14" y="103" width="361" height="666"/>
+                                <rect key="frame" x="16" y="103" width="361" height="666"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
@@ -1003,15 +1326,18 @@
         <image name="TextField-1" width="252" height="43"/>
         <image name="bottonePlus" width="33.333332061767578" height="33.333332061767578"/>
         <image name="chart.bar.xaxis" catalog="system" width="128" height="99"/>
+        <image name="chart.line.uptrend.xyaxis" catalog="system" width="128" height="102"/>
+        <image name="eurosign" catalog="system" width="128" height="121"/>
+        <image name="eurosign.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="gift.fill" catalog="system" width="128" height="125"/>
         <image name="house.fill" catalog="system" width="128" height="104"/>
         <image name="logo_app_arrotondato" width="512" height="512"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="plus.square.on.square.fill" catalog="system" width="128" height="116"/>
+        <image name="shuffle" catalog="system" width="128" height="95"/>
+        <image name="zzz" catalog="system" width="119" height="128"/>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="secondarySystemGroupedBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

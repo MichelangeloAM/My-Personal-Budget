@@ -56,14 +56,21 @@ class RegistratiViewController: UIViewController {
                         // Qui creo l'utente nel database
                         let db = Firestore.firestore()
                         
-                        db.collection("utenti").document(Auth.auth().currentUser!.uid).setData(["nome":nome, "cognome":cognome, "email": email, "uid": authResult!.user.uid]) { (erroreNome_Cognome) in
-                            
-                            if erroreNome_Cognome != nil {
-                                // Mostra errore
-                                self.mostraErrore("I dati utenti non sono validi per il database")
+                        let user = Auth.auth().currentUser
+                        let userData = [
+                            "nome": nome,
+                            "cognome": cognome,
+                            "email": user?.email ?? "",
+                            "uid": user?.uid ?? ""
+                        ]
+                        db.collection("utenti").document(user!.uid).setData(userData) { err in
+                            if let err = err {
+                                print("Errore durante l'aggiunta del documento: \(err)")
+                            } else {
+                                print("Documento aggiunto con successo!")
                             }
                         }
-                        
+
                         // Naviga alla pagina successiva qui
                         self.performSegue(withIdentifier: "registratiAWelcome", sender:self)
                     }
