@@ -40,11 +40,11 @@ class UsciteViewController: UIViewController {
 //                    "createdAt": date
                 ] as [String : Any]
                 
-
-                self.db.collection("utenti").document(self.user!.uid).collection("transactions").document("negative").setData(transactionData) { error in
+                
+                self.db.collection("utenti").document(self.user!.uid).collection("transactions").document("transactions").collection("negative").addDocument(data: transactionData) { error in
                     if let error = error {
                         print("Errore nell'aggiunta della transazione: \(error.localizedDescription)")
-                        self.labelErrore.text =  error.localizedDescription
+                        self.labelErrore.text = error.localizedDescription
                     } else {
                         print("Transazione aggiunta con successo!")
                         self.labelErrore.text = "Transazione registrata"

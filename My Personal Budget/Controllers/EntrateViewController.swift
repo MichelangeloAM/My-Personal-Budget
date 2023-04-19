@@ -29,7 +29,7 @@ class EntrateViewController: UIViewController {
         
         alertController.addTextField { (textField : UITextField!) -> Void in
             let numberFormatter = NumberFormatter()
-            numberFormatter.locale = Locale(identifier: "en_US") // Forza il separatore decimale ad un punto invece di virgola
+            numberFormatter.locale = Locale(identifier: "en_US") // force decimal point separator
             textField.keyboardType = .decimalPad
         }
         
@@ -45,19 +45,21 @@ class EntrateViewController: UIViewController {
                     "name": "wage",
                     "number": enteredNumber,
                     "data": Date()
-//                    "createdAt": date
                 ] as [String : Any]
-                
 
-                self.db.collection("utenti").document(self.user!.uid).collection("transactions").document("positive").setData(transactionData) { error in
+                self.db.collection("utenti").document(self.user!.uid).collection("transactions").document("transactions").collection("positive").addDocument(data: transactionData) { error in
                     if let error = error {
                         print("Errore nell'aggiunta della transazione: \(error.localizedDescription)")
-                        self.labelErrore.text =  error.localizedDescription
+                        self.labelErrore.text = error.localizedDescription
                     } else {
                         print("Transazione aggiunta con successo!")
-                        self.labelErrore.text =  "Transazione registrata"
+                        self.labelErrore.text = "Transazione registrata"
                     }
                 }
+
+
+
+
             }
         })
         
