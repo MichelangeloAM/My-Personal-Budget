@@ -28,6 +28,8 @@ class EntrateViewController: UIViewController {
         let alertController = UIAlertController(title: "Inserisci Stipendio", message: "Per favore inserisci un valore", preferredStyle: .alert)
         
         alertController.addTextField { (textField : UITextField!) -> Void in
+            let numberFormatter = NumberFormatter()
+            numberFormatter.locale = Locale(identifier: "en_US") // Forza il separatore decimale ad un punto invece di virgola
             textField.keyboardType = .decimalPad
         }
         
@@ -64,6 +66,10 @@ class EntrateViewController: UIViewController {
         self.present(alertController, animated: true, completion: nil)
     }
     
+//    FirebaseDatabase.getInstance().getReference("Cart")
+//            .child(table)
+//            .push()
+//            .setValue(entry);
 
 
     

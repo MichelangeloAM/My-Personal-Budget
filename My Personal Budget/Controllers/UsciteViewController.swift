@@ -20,6 +20,8 @@ class UsciteViewController: UIViewController {
         let alertController = UIAlertController(title: "Inserisci Spesa", message: "Per favore inserisci quanto hai speso", preferredStyle: .alert)
         
         alertController.addTextField { (textField : UITextField!) -> Void in
+            let numberFormatter = NumberFormatter()
+            numberFormatter.locale = Locale(identifier: "en_US") // Forza il separatore decimale ad un punto invece di virgola
             textField.keyboardType = .decimalPad
         }
         
