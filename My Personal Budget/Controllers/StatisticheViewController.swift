@@ -10,8 +10,6 @@ import Firebase
 
 class StatisticheViewController: UIViewController {
 
-    @IBOutlet weak var labelStatistiche: UILabel!
-    @IBOutlet weak var labelTutorialStatistiche: UILabel!
     
     
     override func viewDidLoad() {

@@ -66,9 +66,9 @@ class ProfiloViewController: UIViewController {
         
         // Accedo alla collection dell'utente corrente e modifico i 3 valori facendo una updateData con il testo nuovo o non che si trova nelle textField della view
         db.collection("utenti").document(userID).updateData([
-            "nome": textFieldNome.text,
-            "cognome": textFieldCognome.text,
-            "email": textFieldEmail.text
+            "nome": textFieldNome.text as Any,
+            "cognome": textFieldCognome.text as Any,
+            "email": textFieldEmail.text as Any
         ]) { errore in
             if let errore = errore?.localizedDescription {
                 self.labelErrore.text = errore
