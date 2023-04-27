@@ -144,13 +144,13 @@
                                 <rect key="frame" x="50" y="256" width="292.66666666666669" height="244.33333333333337"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TextField-1" translatesAutoresizingMaskIntoConstraints="NO" id="bB8-4X-NOr" userLabel="textFieldEmail">
-                                        <rect key="frame" x="0.0" y="0.0" width="292.66666666666669" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="292.66666666666669" height="42.666666666666664"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="bB8-4X-NOr" secondAttribute="height" multiplier="252:43" id="xZH-BN-Hmd"/>
                                         </constraints>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TextField-1" translatesAutoresizingMaskIntoConstraints="NO" id="Nn0-zK-5yV" userLabel="textFieldPassword">
-                                        <rect key="frame" x="0.0" y="69" width="292.66666666666669" height="42.666666666666657"/>
+                                        <rect key="frame" x="0.0" y="61.666666666666686" width="292.66666666666669" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Nn0-zK-5yV" secondAttribute="height" multiplier="253:43" id="9y5-yl-YWH"/>
                                         </constraints>
@@ -451,11 +451,11 @@
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="hh9-Ws-zGJ">
                                 <rect key="frame" x="16" y="274" width="361" height="375"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.76123124360000005" green="0.89493829010000003" blue="0.83136588339999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="hh9-Ws-zGJ" secondAttribute="height" multiplier="361:398" constant="20.861809045226153" id="MGo-Sr-JEB"/>
                                 </constraints>
-                                <color key="sectionIndexColor" systemColor="labelColor"/>
+                                <color key="sectionIndexColor" cyan="0.75024541479999995" magenta="0.034728520450000001" yellow="0.28864768149999998" black="0.54036891460000003" alpha="1" colorSpace="custom" customColorSpace="deviceCMYK"/>
                                 <color key="sectionIndexBackgroundColor" red="0.76123124360000005" green="0.89493829010000003" blue="0.83136588339999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ReP-Zh-x3f" userLabel="datacell">
@@ -465,6 +465,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="361" height="43.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.76123124360000005" green="0.89493829010000003" blue="0.83136588339999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -1162,7 +1163,7 @@
                         <viewLayoutGuide key="safeArea" id="pih-j2-46F"/>
                         <color key="backgroundColor" red="0.76123124360000005" green="0.89493829010000003" blue="0.83136588339999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <navigationItem key="navigationItem" title="My Personal Budget" id="t8m-t1-1z0"/>
+                    <navigationItem key="navigationItem" title="Statstiche" id="t8m-t1-1z0"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kt4-18-epL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1254,7 +1255,6 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="QOV-yP-OsL">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" systemColor="systemFillColor"/>
                         <tabBarAppearance key="standardAppearance"/>
                     </tabBar>
@@ -1319,7 +1319,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="OvU-8M-6I6"/>
+        <segue reference="XKJ-N9-T3w"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="AppleSignIn" width="465" height="101"/>
@@ -1349,9 +1349,6 @@
         <image name="sparkles.tv" catalog="system" width="128" height="95"/>
         <image name="tshirt" catalog="system" width="128" height="98"/>
         <image name="zzz" catalog="system" width="119" height="128"/>
-        <systemColor name="labelColor">
-            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

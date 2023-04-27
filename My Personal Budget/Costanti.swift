@@ -18,6 +18,10 @@ struct K {
         static let scrittaInserisci = "Transazioni"
         static let scrittaStatistiche = "Statistiche"
     }
+    
+    struct Cells {
+            static let transactionCell = "TransactionCell"
+        }
         
     struct App_Text {
         static let tutorialApp = "Ciao e benvenuto! Di seguito spiegherò brevemente le funzionalità dell'app. In basso trovi 4 opzioni, la prima è questa, la seconda (Profilo) serve a modificare i propri dati, la terza per inserire transazioni, la quarta per le statistiche."

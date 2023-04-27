@@ -116,6 +116,7 @@ class UsciteViewController: UIViewController {
                 let enteredNumber = Double(text) ?? 0 // se non è un numero valido lo salva a 0
                 print("Numero immesso: \(enteredNumber)")
                 
+                
                 // Metto il numero nelle transazioni nel DB
                 
                 let transactionData = [
