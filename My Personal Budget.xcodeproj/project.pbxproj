@@ -17,6 +17,7 @@
 		07A8CEB12731783B00BA8286 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8CEB02731783B00BA8286 /* HomeViewController.swift */; };
 		07BEF9AB29EF1CCE00D90FF9 /* UsciteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BEF9AA29EF1CCE00D90FF9 /* UsciteViewController.swift */; };
 		07BEF9AD29EF1CEB00D90FF9 /* EntrateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BEF9AC29EF1CEB00D90FF9 /* EntrateViewController.swift */; };
+		07F4CFE129FBCA00004BBBE2 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F4CFE029FBCA00004BBBE2 /* TransactionTableViewCell.swift */; };
 		07F86344273063D70096BA6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F86343273063D70096BA6F /* AppDelegate.swift */; };
 		07F86346273063D70096BA6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F86345273063D70096BA6F /* SceneDelegate.swift */; };
 		07F8634B273063D70096BA6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F86349273063D70096BA6F /* Main.storyboard */; };
@@ -56,6 +57,7 @@
 		07A8CEB02731783B00BA8286 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		07BEF9AA29EF1CCE00D90FF9 /* UsciteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsciteViewController.swift; sourceTree = "<group>"; };
 		07BEF9AC29EF1CEB00D90FF9 /* EntrateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntrateViewController.swift; sourceTree = "<group>"; };
+		07F4CFE029FBCA00004BBBE2 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
 		07F86340273063D70096BA6F /* My Personal Budget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Personal Budget.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F86343273063D70096BA6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07F86345273063D70096BA6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				07717F3C2750E7A40017E73D /* BenvenutoViewController.swift */,
 				07BEF9AA29EF1CCE00D90FF9 /* UsciteViewController.swift */,
 				07BEF9AC29EF1CEB00D90FF9 /* EntrateViewController.swift */,
+				07F4CFE029FBCA00004BBBE2 /* TransactionTableViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				076642E2274FE06A006433D3 /* InserisciViewController.swift in Sources */,
 				07A8CEAF2731603C00BA8286 /* LoginViewController.swift in Sources */,
 				07A8CEAD2731602400BA8286 /* RegistratiViewController.swift in Sources */,
+				07F4CFE129FBCA00004BBBE2 /* TransactionTableViewCell.swift in Sources */,
 				07F86344273063D70096BA6F /* AppDelegate.swift in Sources */,
 				07F8637A273069280096BA6F /* Costanti.swift in Sources */,
 				07BEF9AB29EF1CCE00D90FF9 /* UsciteViewController.swift in Sources */,

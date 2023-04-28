@@ -36,12 +36,13 @@ class UsciteViewController: UIViewController {
                 let transactionData = [
                     "name": "house",
                     "number": enteredNumber,
-                    "data": Date()
+                    "data": Date(),
+                    "category": "negative"
 //                    "createdAt": date
                 ] as [String : Any]
                 
                 
-                self.db.collection("utenti").document(self.user!.uid).collection("transactions").document("transactions").collection("negative").addDocument(data: transactionData) { error in
+                self.db.collection("utenti").document(self.user!.uid).collection("transactions").addDocument(data: transactionData) { error in
                     if let error = error {
                         print("Errore nell'aggiunta della transazione: \(error.localizedDescription)")
                         self.labelErrore.text = error.localizedDescription
@@ -79,12 +80,13 @@ class UsciteViewController: UIViewController {
                 let transactionData = [
                     "name": "transport",
                     "number": enteredNumber,
-                    "data": Date()
+                    "data": Date(),
+                    "category": "negative"
 //                    "createdAt": date
                 ] as [String : Any]
                 
                 
-                self.db.collection("utenti").document(self.user!.uid).collection("transactions").document("transactions").collection("negative").addDocument(data: transactionData) { error in
+                self.db.collection("utenti").document(self.user!.uid).collection("transactions").addDocument(data: transactionData) { error in
                     if let error = error {
                         print("Errore nell'aggiunta della transazione: \(error.localizedDescription)")
                         self.labelErrore.text = error.localizedDescription
@@ -122,12 +124,13 @@ class UsciteViewController: UIViewController {
                 let transactionData = [
                     "name": "food",
                     "number": enteredNumber,
-                    "data": Date()
+                    "data": Date(),
+                    "category": "negative"
 //                    "createdAt": date
                 ] as [String : Any]
                 
                 
-                self.db.collection("utenti").document(self.user!.uid).collection("transactions").document("transactions").collection("negative").addDocument(data: transactionData) { error in
+                self.db.collection("utenti").document(self.user!.uid).collection("transactions").addDocument(data: transactionData) { error in
                     if let error = error {
                         print("Errore nell'aggiunta della transazione: \(error.localizedDescription)")
                         self.labelErrore.text = error.localizedDescription
@@ -164,12 +167,13 @@ class UsciteViewController: UIViewController {
                 let transactionData = [
                     "name": "gift",
                     "number": enteredNumber,
-                    "data": Date()
+                    "data": Date(),
+                    "category": "negative"
 //                    "createdAt": date
                 ] as [String : Any]
                 
                 
-                self.db.collection("utenti").document(self.user!.uid).collection("transactions").document("transactions").collection("negative").addDocument(data: transactionData) { error in
+                self.db.collection("utenti").document(self.user!.uid).collection("transactions").addDocument(data: transactionData) { error in
                     if let error = error {
                         print("Errore nell'aggiunta della transazione: \(error.localizedDescription)")
                         self.labelErrore.text = error.localizedDescription
@@ -206,12 +210,13 @@ class UsciteViewController: UIViewController {
                 let transactionData = [
                     "name": "clothing",
                     "number": enteredNumber,
-                    "data": Date()
+                    "data": Date(),
+                    "category": "negative"
 //                    "createdAt": date
                 ] as [String : Any]
                 
                 
-                self.db.collection("utenti").document(self.user!.uid).collection("transactions").document("transactions").collection("negative").addDocument(data: transactionData) { error in
+                self.db.collection("utenti").document(self.user!.uid).collection("transactions").addDocument(data: transactionData) { error in
                     if let error = error {
                         print("Errore nell'aggiunta della transazione: \(error.localizedDescription)")
                         self.labelErrore.text = error.localizedDescription
@@ -249,12 +254,13 @@ class UsciteViewController: UIViewController {
                 let transactionData = [
                     "name": "medical",
                     "number": enteredNumber,
-                    "data": Date()
+                    "data": Date(),
+                    "category": "negative"
 //                    "createdAt": date
                 ] as [String : Any]
                 
                 
-                self.db.collection("utenti").document(self.user!.uid).collection("transactions").document("transactions").collection("negative").addDocument(data: transactionData) { error in
+                self.db.collection("utenti").document(self.user!.uid).collection("transactions").addDocument(data: transactionData) { error in
                     if let error = error {
                         print("Errore nell'aggiunta della transazione: \(error.localizedDescription)")
                         self.labelErrore.text = error.localizedDescription
@@ -292,12 +298,13 @@ class UsciteViewController: UIViewController {
                 let transactionData = [
                     "name": "sport",
                     "number": enteredNumber,
-                    "data": Date()
+                    "data": Date(),
+                    "category": "negative"
 //                    "createdAt": date
                 ] as [String : Any]
                 
                 
-                self.db.collection("utenti").document(self.user!.uid).collection("transactions").document("transactions").collection("negative").addDocument(data: transactionData) { error in
+                self.db.collection("utenti").document(self.user!.uid).collection("transactions").addDocument(data: transactionData) { error in
                     if let error = error {
                         print("Errore nell'aggiunta della transazione: \(error.localizedDescription)")
                         self.labelErrore.text = error.localizedDescription
@@ -334,12 +341,13 @@ class UsciteViewController: UIViewController {
                 let transactionData = [
                     "name": "taxes",
                     "number": enteredNumber,
-                    "data": Date()
+                    "data": Date(),
+                    "category": "negative"
 //                    "createdAt": date
                 ] as [String : Any]
                 
                 
-                self.db.collection("utenti").document(self.user!.uid).collection("transactions").document("transactions").collection("negative").addDocument(data: transactionData) { error in
+                self.db.collection("utenti").document(self.user!.uid).collection("transactions").addDocument(data: transactionData) { error in
                     if let error = error {
                         print("Errore nell'aggiunta della transazione: \(error.localizedDescription)")
                         self.labelErrore.text = error.localizedDescription
@@ -376,12 +384,13 @@ class UsciteViewController: UIViewController {
                 let transactionData = [
                     "name": "leisure",
                     "number": enteredNumber,
-                    "data": Date()
+                    "data": Date(),
+                    "category": "negative"
 //                    "createdAt": date
                 ] as [String : Any]
                 
                 
-                self.db.collection("utenti").document(self.user!.uid).collection("transactions").document("transactions").collection("negative").addDocument(data: transactionData) { error in
+                self.db.collection("utenti").document(self.user!.uid).collection("transactions").addDocument(data: transactionData) { error in
                     if let error = error {
                         print("Errore nell'aggiunta della transazione: \(error.localizedDescription)")
                         self.labelErrore.text = error.localizedDescription
@@ -418,12 +427,13 @@ class UsciteViewController: UIViewController {
                 let transactionData = [
                     "name": "education",
                     "number": enteredNumber,
-                    "data": Date()
+                    "data": Date(),
+                    "category": "negative"
 //                    "createdAt": date
                 ] as [String : Any]
                 
                 
-                self.db.collection("utenti").document(self.user!.uid).collection("transactions").document("transactions").collection("negative").addDocument(data: transactionData) { error in
+                self.db.collection("utenti").document(self.user!.uid).collection("transactions").addDocument(data: transactionData) { error in
                     if let error = error {
                         print("Errore nell'aggiunta della transazione: \(error.localizedDescription)")
                         self.labelErrore.text = error.localizedDescription
@@ -460,12 +470,13 @@ class UsciteViewController: UIViewController {
                 let transactionData = [
                     "name": "investments",
                     "number": enteredNumber,
-                    "data": Date()
+                    "data": Date(),
+                    "category": "negative"
 //                    "createdAt": date
                 ] as [String : Any]
                 
                 
-                self.db.collection("utenti").document(self.user!.uid).collection("transactions").document("transactions").collection("negative").addDocument(data: transactionData) { error in
+                self.db.collection("utenti").document(self.user!.uid).collection("transactions").addDocument(data: transactionData) { error in
                     if let error = error {
                         print("Errore nell'aggiunta della transazione: \(error.localizedDescription)")
                         self.labelErrore.text = error.localizedDescription
@@ -502,12 +513,13 @@ class UsciteViewController: UIViewController {
                 let transactionData = [
                     "name": "phone",
                     "number": enteredNumber,
-                    "data": Date()
+                    "data": Date(),
+                    "category": "negative"
 //                    "createdAt": date
                 ] as [String : Any]
                 
                 
-                self.db.collection("utenti").document(self.user!.uid).collection("transactions").document("transactions").collection("negative").addDocument(data: transactionData) { error in
+                self.db.collection("utenti").document(self.user!.uid).collection("transactions").addDocument(data: transactionData) { error in
                     if let error = error {
                         print("Errore nell'aggiunta della transazione: \(error.localizedDescription)")
                         self.labelErrore.text = error.localizedDescription
@@ -545,12 +557,13 @@ class UsciteViewController: UIViewController {
                 let transactionData = [
                     "name": "car",
                     "number": enteredNumber,
-                    "data": Date()
+                    "data": Date(),
+                    "category": "negative"
 //                    "createdAt": date
                 ] as [String : Any]
                 
                 
-                self.db.collection("utenti").document(self.user!.uid).collection("transactions").document("transactions").collection("negative").addDocument(data: transactionData) { error in
+                self.db.collection("utenti").document(self.user!.uid).collection("transactions").addDocument(data: transactionData) { error in
                     if let error = error {
                         print("Errore nell'aggiunta della transazione: \(error.localizedDescription)")
                         self.labelErrore.text = error.localizedDescription
@@ -588,12 +601,13 @@ class UsciteViewController: UIViewController {
                 let transactionData = [
                     "name": "groceries",
                     "number": enteredNumber,
-                    "data": Date()
+                    "data": Date(),
+                    "category": "negative"
 //                    "createdAt": date
                 ] as [String : Any]
                 
                 
-                self.db.collection("utenti").document(self.user!.uid).collection("transactions").document("transactions").collection("negative").addDocument(data: transactionData) { error in
+                self.db.collection("utenti").document(self.user!.uid).collection("transactions").addDocument(data: transactionData) { error in
                     if let error = error {
                         print("Errore nell'aggiunta della transazione: \(error.localizedDescription)")
                         self.labelErrore.text = error.localizedDescription
@@ -630,12 +644,13 @@ class UsciteViewController: UIViewController {
                 let transactionData = [
                     "name": "fuel",
                     "number": enteredNumber,
-                    "data": Date()
+                    "data": Date(),
+                    "category": "negative"
 //                    "createdAt": date
                 ] as [String : Any]
                 
                 
-                self.db.collection("utenti").document(self.user!.uid).collection("transactions").document("transactions").collection("negative").addDocument(data: transactionData) { error in
+                self.db.collection("utenti").document(self.user!.uid).collection("transactions").addDocument(data: transactionData) { error in
                     if let error = error {
                         print("Errore nell'aggiunta della transazione: \(error.localizedDescription)")
                         self.labelErrore.text = error.localizedDescription
