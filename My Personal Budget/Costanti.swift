@@ -29,7 +29,7 @@ struct K {
         static let tutorialStatistiche = "Qui puoi visualizzare tutte le informazioni riguardanti le tue transazioni in semplici e comprensibili grafici. I graifici possono darti indicazioni su come stai gestendo le tue spese al volo!"
         static let introApp = "Ciao e benvenuto su My Personal Budget, un portafoglio virtuale utile per tenere traccia di tutte le tue spese ed entrare. Usa l'app per affinare le tue doti da risparmiatore o per limitare spese non necessarie. Grazie ai nostri algoritmi e ai grafici forniti nell'app, saprai sempre come meglio gestire le tue spese!"
         static let tutorialProfilo = "Nella pagina profilo puoi modificare Nome, Cognome, Email e Password del tuo account. Basta cliccare su uno qualsiasi di essi e scrivere il dato modificato. Tranquillo, la tua password è sicura con noi! 😃"
-        static let tutorialInserisciHome = "Per inserire una nuova transazione, clicca sull'incona a forma di busto, poi sul bottone '+' ed infine inserisci tutti i dati della transazione. Se vuoi tornare indietro clicca 'Cancella' in alto a sinistra, altrimenti 'Aggiungi' in alto a destra."
+        static let tutorialInserisciHome = "Per inserire una nuova transazione, clicca su Entrate o Uscite, poi seleziona la categoria desiderata, inserisci il valore e clicca 'Aggiungi'. In questa schermata potrai visualizzare le tue transazioni ordinate per data."
     }
     
     struct Fbase {

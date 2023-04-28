@@ -8,6 +8,7 @@
 import UIKit
 import Firebase
 
+
 class EntrateViewController: UIViewController {
     
 //    let date = Date()
@@ -106,6 +107,7 @@ class EntrateViewController: UIViewController {
         alertController.addAction(insertAction)
         
         self.present(alertController, animated: true, completion: nil)
+
     }
     
     
@@ -278,12 +280,6 @@ class EntrateViewController: UIViewController {
         
         self.present(alertController, animated: true, completion: nil)
     }
-    
-    
-//    FirebaseDatabase.getInstance().getReference("Cart")
-//            .child(table)
-//            .push()
-//            .setValue(entry);
     
     
     override func viewDidLoad() {

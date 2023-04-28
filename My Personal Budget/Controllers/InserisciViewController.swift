@@ -14,9 +14,6 @@ class InserisciViewController: UIViewController, UITableViewDataSource, UITableV
     @IBOutlet weak var buttonEntrate: UIButton!
     @IBOutlet weak var buttonUscite: UIButton!
     
-    // Data model: These strings will be the data for the table view cells
-    let animals: [String] = ["Horse", "Cow", "Camel", "Sheep", "Goat"]
-    
     // cell reuse id (cells that scroll out of view can be reused)
     
     let db = Firestore.firestore()
@@ -31,6 +28,8 @@ class InserisciViewController: UIViewController, UITableViewDataSource, UITableV
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        labelTutorialInserisci.text = K.App_Text.tutorialInserisci
         
         self.tableView.dataSource = self
         self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "transactionCell")
@@ -54,6 +53,7 @@ class InserisciViewController: UIViewController, UITableViewDataSource, UITableV
                     self?.tableView.reloadData()
                 }
         }
+
         
     }
     
@@ -64,6 +64,10 @@ class InserisciViewController: UIViewController, UITableViewDataSource, UITableV
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
         let cell = tableView.dequeueReusableCell(withIdentifier: "transactionCell", for: indexPath) as! UITableViewCell
+        
+        cell.backgroundColor = UIColor.white
+        cell.selectionStyle = .none
+//        cell.contentMode = .center
 
         let transaction = transactions[indexPath.row]
         let category = transaction["category"] as? String ?? ""
@@ -71,25 +75,33 @@ class InserisciViewController: UIViewController, UITableViewDataSource, UITableV
         let amount = transaction["number"] as? Double ?? 0
         let date = transaction["data"] as? Timestamp ?? Timestamp(date: Date())
 
-        cell.textLabel?.text = name
+        let convertito: String = String(format: "%.2f", amount)
 
+        
         let formatter = DateFormatter()
         formatter.dateFormat = "dd/MM/yyyy"
+
+        let finale = name.capitalized + "      " + convertito
         
-        cell.textLabel?.text = formatter.string(from: date.dateValue())
+        cell.detailTextLabel?.text = formatter.string(from: date.dateValue())
+        cell.textLabel?.text = finale
+//        cell.detailTextLabel?.text = "TEST"
+        
 
 //        cell.dateLabel.text = formatter.string(from: date.dateValue())
 
         if category == "positive" {
+            cell.textLabel?.textColor = UIColor.systemGreen
 //            cell.amountLabel.textColor = UIColor.green
 //            cell.amountLabel.text = String(format: "%.2f", amount)
         } else {
-//            cell.amountLabel.textColor = UIColor.red
+            cell.textLabel?.textColor = UIColor.systemRed
 //            cell.amountLabel.text = "-\(String(format: "%.2f", abs(amount)))"
         }
 
         return cell
     }
+
 
 }
 
