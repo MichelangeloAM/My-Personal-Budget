@@ -49,7 +49,6 @@ class InserisciViewController: UIViewController, UITableViewDataSource, UITableV
                         return
                     }
                     self?.transactions = documents
-                    print(self?.transactions)
                     self?.tableView.reloadData()
                 }
         }
@@ -67,7 +66,7 @@ class InserisciViewController: UIViewController, UITableViewDataSource, UITableV
         
         cell.backgroundColor = UIColor.white
         cell.selectionStyle = .none
-//        cell.contentMode = .center
+        cell.contentMode = .center
 
         let transaction = transactions[indexPath.row]
         let category = transaction["category"] as? String ?? ""

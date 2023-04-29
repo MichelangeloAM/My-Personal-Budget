@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0732D53A29FD5EDA009AFA03 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 0732D53929FD5EDA009AFA03 /* Charts */; };
+		0732D53D29FD633D009AFA03 /* TinyConstraints in Frameworks */ = {isa = PBXBuildFile; productRef = 0732D53C29FD633D009AFA03 /* TinyConstraints */; };
 		076642E2274FE06A006433D3 /* InserisciViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076642DD274FE06A006433D3 /* InserisciViewController.swift */; };
 		076642E3274FE06A006433D3 /* ProfiloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076642DE274FE06A006433D3 /* ProfiloViewController.swift */; };
 		076642E4274FE06A006433D3 /* StatisticheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076642DF274FE06A006433D3 /* StatisticheViewController.swift */; };
@@ -76,10 +78,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0732D53A29FD5EDA009AFA03 /* Charts in Frameworks */,
 				07F8638A273080D30096BA6F /* FirebaseAnalytics in Frameworks */,
 				07717F3B275013150017E73D /* IQKeyboardManagerSwift in Frameworks */,
 				07F8638E273080D30096BA6F /* FirebaseFirestore in Frameworks */,
 				07F8638C273080D30096BA6F /* FirebaseAuth in Frameworks */,
+				0732D53D29FD633D009AFA03 /* TinyConstraints in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +176,8 @@
 				07F8638B273080D30096BA6F /* FirebaseAuth */,
 				07F8638D273080D30096BA6F /* FirebaseFirestore */,
 				07717F3A275013150017E73D /* IQKeyboardManagerSwift */,
+				0732D53929FD5EDA009AFA03 /* Charts */,
+				0732D53C29FD633D009AFA03 /* TinyConstraints */,
 			);
 			productName = "My Personal Budget";
 			productReference = 07F86340273063D70096BA6F /* My Personal Budget.app */;
@@ -249,6 +255,8 @@
 				07F86373273067C10096BA6F /* XCRemoteSwiftPackageReference "GhostTypewriter" */,
 				07F86376273067CD0096BA6F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 				07F86388273080D30096BA6F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				0732D53829FD5EDA009AFA03 /* XCRemoteSwiftPackageReference "Charts" */,
+				0732D53B29FD633D009AFA03 /* XCRemoteSwiftPackageReference "TinyConstraints" */,
 			);
 			productRefGroup = 07F86341273063D70096BA6F /* Products */;
 			projectDirPath = "";
@@ -675,6 +683,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		0732D53829FD5EDA009AFA03 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = exactVersion;
+				version = 4.1.0;
+			};
+		};
+		0732D53B29FD633D009AFA03 /* XCRemoteSwiftPackageReference "TinyConstraints" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/roberthein/TinyConstraints.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
 		07F86373273067C10096BA6F /* XCRemoteSwiftPackageReference "GhostTypewriter" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/wibosco/GhostTypewriter";
@@ -702,6 +726,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		0732D53929FD5EDA009AFA03 /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0732D53829FD5EDA009AFA03 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+		0732D53C29FD633D009AFA03 /* TinyConstraints */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0732D53B29FD633D009AFA03 /* XCRemoteSwiftPackageReference "TinyConstraints" */;
+			productName = TinyConstraints;
+		};
 		07717F3A275013150017E73D /* IQKeyboardManagerSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 07F86376273067CD0096BA6F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;

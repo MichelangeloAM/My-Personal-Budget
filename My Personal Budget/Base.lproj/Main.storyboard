@@ -1181,7 +1181,7 @@
                         <viewLayoutGuide key="safeArea" id="pih-j2-46F"/>
                         <color key="backgroundColor" red="0.76123124360000005" green="0.89493829010000003" blue="0.83136588339999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Statstiche" id="t8m-t1-1z0"/>
+                    <navigationItem key="navigationItem" title="Statistiche" id="t8m-t1-1z0"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kt4-18-epL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
