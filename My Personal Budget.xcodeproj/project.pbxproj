@@ -129,9 +129,9 @@
 				07F86345273063D70096BA6F /* SceneDelegate.swift */,
 				07F8637E27306B9B0096BA6F /* Controllers */,
 				07F86349273063D70096BA6F /* Main.storyboard */,
+				07F8634C273063D80096BA6F /* Assets.xcassets */,
 				07F8634E273063D80096BA6F /* LaunchScreen.storyboard */,
 				07F86379273069280096BA6F /* Costanti.swift */,
-				07F8634C273063D80096BA6F /* Assets.xcassets */,
 				07F86351273063D80096BA6F /* Info.plist */,
 				07F8638F273081570096BA6F /* GoogleService-Info.plist */,
 			);
