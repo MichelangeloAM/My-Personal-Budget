@@ -7,6 +7,7 @@
 
 import UIKit
 import Firebase
+import SwiftUI
 
 class InserisciViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
@@ -24,6 +25,7 @@ class InserisciViewController: UIViewController, UITableViewDataSource, UITableV
     @IBOutlet var tableView: UITableView!
     
     var transactions: [QueryDocumentSnapshot] = []
+    
 
     
     override func viewDidLoad() {
@@ -56,6 +58,34 @@ class InserisciViewController: UIViewController, UITableViewDataSource, UITableV
         
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print("Ricarico View")
+
+        self.tableView.dataSource = self
+        self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "transactionCell")
+        
+        let uid = Auth.auth().currentUser?.uid ?? ""
+        let transactionsRef = db.collection("utenti").document(uid).collection("transactions")
+
+        //            .order(by: "data", descending: true)
+
+        transactionsRef
+            .getDocuments() { [weak self] querySnapshot, error in
+                if let error = error {
+                    print("Error getting documents: \(error)")
+                } else {
+                    guard let documents = querySnapshot?.documents else {
+                        print("No documents found")
+                        return
+                    }
+                    self?.transactions = documents
+                    self?.tableView.reloadData()
+                }
+        }
+
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return transactions.count
     }
@@ -64,7 +94,7 @@ class InserisciViewController: UIViewController, UITableViewDataSource, UITableV
 
         let cell = tableView.dequeueReusableCell(withIdentifier: "transactionCell", for: indexPath) as! UITableViewCell
         
-        cell.backgroundColor = UIColor.white
+        cell.backgroundColor = self.UIColorFromRGB(0xC2E4D4)
         cell.selectionStyle = .none
         cell.contentMode = .center
 
@@ -99,6 +129,14 @@ class InserisciViewController: UIViewController, UITableViewDataSource, UITableV
         }
 
         return cell
+    }
+    
+    func UIColorFromRGB(_ rgbValue: Int) -> UIColor! {
+        return UIColor(
+            red: CGFloat((Float((rgbValue & 0xff0000) >> 16)) / 255.0),
+            green: CGFloat((Float((rgbValue & 0x00ff00) >> 8)) / 255.0),
+            blue: CGFloat((Float((rgbValue & 0x0000ff) >> 0)) / 255.0),
+            alpha: 1.0)
     }
 
 
