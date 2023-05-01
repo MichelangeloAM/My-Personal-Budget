@@ -160,13 +160,13 @@ class StatisticheViewController: UIViewController, ChartViewDelegate {
                     }
                 }
                 
-                // Calculate percentages for positive transactions by name
+                // Calcolo le percentuali positive per nome
                 for (name, number) in positiveByNames {
                     let percentage = (number / self!.positiveTotal) * 100
                     self?.positivePercentagesByNames[name] = Int(percentage)
                 }
                 
-                // Calculate percentages for negative transactions by name
+                // Calcolo le percentuali negative per nome
                 for (name, number) in negativeByNames {
                     let percentage = (number / self!.negativeTotal) * 100
                     self?.negativePercentagesByNames[name] = Int(percentage)
@@ -324,7 +324,7 @@ class StatisticheViewController: UIViewController, ChartViewDelegate {
         
         var percPos = (positiveTotal / totale) * 100
         var percNeg = (negativeTotal / totale) * 100
-
+        
         
         var entries : [PieChartDataEntry] = Array()
         entries.append(PieChartDataEntry(value: percPos, label: "Entrate"))
