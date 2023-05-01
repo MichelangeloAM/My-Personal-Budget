@@ -1,8 +1,0 @@
-
- strings:
-   inputs:
-     - My Personal Budget/Base.lproj
-   outputs:
-     - templateName: structured-swift5
-       output: My Personal Budget/Strings+Generated.swift
-
